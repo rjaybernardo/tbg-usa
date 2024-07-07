@@ -1,0 +1,62 @@
+{
+  "type": "header",
+  "name": "Header Group",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "settings": {
+        "home_only_announcement_bar": false,
+        "announcement_bar_text": "Launching in the US November 24'",
+        "announcement_bar_col": "#55565a",
+        "announcement_bar_grad": "",
+        "announcement_text_col": "#ffffff"
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "menu_promo_fC3rkR": {
+          "type": "menu_promo",
+          "settings": {
+            "dropdown_link_title": "",
+            "text": "",
+            "link_text": "",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "menu_promo_fC3rkR"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "logo": "shopify:\/\/shop_images\/BalconyGarden_R_LogoFiles_Primary_RGB.png",
+        "logo_width": 310,
+        "desktop_layout": "center",
+        "show_search_bar_desktop": true,
+        "show_search_bar_mobile": false,
+        "logo_position_mobile": "inline",
+        "dock_nav": true,
+        "cart_icon": "shopping-bag",
+        "main_linklist": "main-menu",
+        "show_country_selector": false,
+        "show_language_selector": false,
+        "show_messages": true,
+        "home_only_messages": false,
+        "slideshow_messages": false,
+        "message_1_text": "SHOP ALL",
+        "message_1_url": "shopify:\/\/pages\/compare",
+        "message_2_text": "CULTIVATING A GREENER WORLD",
+        "message_2_url": "",
+        "message_3_text": "SHOP LIGHTWEIGHT",
+        "message_3_url": "shopify:\/\/collections\/lightweight-pots"
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
+}

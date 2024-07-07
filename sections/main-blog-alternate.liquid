@@ -1,0 +1,153 @@
+{%- paginate blog.articles by 90 -%}
+
+<!--<div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn" onclick="filterSelection('nature')"> Nature</button>
+  <button class="btn" onclick="filterSelection('cars')"> Cars</button>
+  <button class="btn" onclick="filterSelection('people')"> People</button>
+</div> -->
+
+{% assign filter_list = section.settings.filter_list | split:';' %}
+
+<ul class = "selectors grid-flex">
+  <li>
+    <button class = "nav-button active" onclick = "filterSelection('all')">All</button>
+  </li>
+  {% for filter in filter_list %}
+  
+  <li>
+    <button class = "nav-button" onclick="filterSelection('{{filter}}')" >{{filter}}</button>
+  </li>
+  {% endfor %}
+ <!-- <li>
+    <button onclick="filterSelection('nature')" >Nature</button>
+  </li>
+  <li>
+    <button onclick="filterSelection('cars')">Cars</button>
+  </li>
+
+  <li>
+    <button onclick="filterSelection('people')">People</button>
+  </li> -->
+</ul>
+
+<div class = "grid-flex">
+{%- for article in blog.articles -%}
+  {% for t in article.tags %}
+  {% if t contains "blog__" %}
+  {% assign tag = t | split : "blog__"%}
+  {% if forloop.index == 1 %}
+  {% assign tagClass = tag[1] %}
+  {% elsif forloop.index == 2 %}
+  {% assign tagClassTwo = tag[1] %}
+  {% elsif forloop.index == 3 %}
+  {% assign tagClassThree = tag[1] %}
+  {% elsif forloop.index == 4 %}
+  {% assign tagClassFour = tag[1] %}
+  {% else %}
+  {% assign tagClassThree = tag[1] %}
+  {% endif %}
+  {% endif %}
+  {% endfor %}
+  <div  class = " grid-flex__item one-third medium-down--one-half small-down--one-whole column {{tagClass}} {{tagClassTwo}} {{tagClassThree}} {{tagClassFour}} {{tagClassFive}}" >
+   <a href="{{ article.url }}" class="blog-articles-list__image">
+  {% if article.image %}
+                  
+                  {% comment %}  {% render 'responsive-image', image: article.image %} {% endcomment %}
+   <!--  <div style = "background-image:url({{article.image | image_url}})"></div> -->
+        <img class = "blog-alt-image" src = "{{article.image | image_url}}" />            
+                {% endif %}
+    <p class = "created-at">{{ article.created_at | date: format: 'abbreviated_date'}}</p>
+    <h4 class = "blog-alt-title">{{article.title}}</h4>
+     <p class = "read-more">Read the post -</p>
+    </a>
+  </div>
+{%- endfor -%}
+</div>
+  {% render 'pagination', paginate: paginate %}
+{%- endpaginate -%}
+
+<style>
+  .column{
+   display:none;
+  }
+  
+  </style>  
+
+<script>
+  
+  filterSelection("all") // Execute the function and show all columns
+function filterSelection(c) {
+  var x, i;
+  console.log("this is c   " + c)
+  x = document.getElementsByClassName("column");
+  if (c == "all") c = "";
+  // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
+  for (i = 0; i < x.length; i++) {
+   
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+// Show filtered elements
+function w3AddClass(element, name) {
+  
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {
+      element.className += " " + arr2[i];
+    }
+  }
+}
+
+// Hide elements that are not selected
+function w3RemoveClass(element, name) {
+    
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+  
+  
+  
+</script>  
+
+
+
+
+
+{% schema %}
+  {
+    "name": "Blog alternate",
+    "settings": [
+    {
+      "type":"textarea",
+      "id":"filter_list",
+      "label":"List All Categories Here",
+      "info":"Use\";\" to separate each category" 
+    }
+]
+  }
+{% endschema %}
+
+

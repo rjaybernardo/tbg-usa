@@ -1,0 +1,91 @@
+{
+  "sections": {
+    "rich_text_XcFREh": {
+      "type": "rich-text",
+      "settings": {
+        "title": "Do you have questions?",
+        "text": "<p>Contact us via the form below and we'll get back to you asap.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": true,
+        "enlarge_text": false,
+        "full_width": false,
+        "color_title": "#333333",
+        "color_text": "#333333",
+        "color_bg": "#ffffff",
+        "gradient_bg": ""
+      }
+    },
+    "main": {
+      "type": "main-contact",
+      "blocks": {
+        "name": {
+          "type": "name_input",
+          "settings": {
+          }
+        },
+        "email": {
+          "type": "email_input",
+          "settings": {
+          }
+        },
+        "message": {
+          "type": "message_input",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "name",
+        "email",
+        "message"
+      ],
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "title_alignment": "left",
+        "use_columns": true
+      }
+    },
+    "1719804699f651bf7c": {
+      "type": "apps",
+      "blocks": {
+        "klaviyo_email_marketing_sms_form_embed_block_cjim4n": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "<div class=\"klaviyo-form-RXgNpC\"><\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "klaviyo_email_marketing_sms_form_embed_block_cjim4n"
+      ],
+      "settings": {
+      }
+    },
+    "rich_text_yHirgU": {
+      "type": "rich-text",
+      "settings": {
+        "title": "Need a hand? Be sure to check our FAQ's",
+        "text": "",
+        "button_label": "Frequently Asked Questions",
+        "button_link": "shopify:\/\/pages\/frequently-asked-questions",
+        "url_style": "button_2",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "full_width": false,
+        "color_title": "#55565a",
+        "color_text": "#55565a",
+        "color_bg": "rgba(0,0,0,0)",
+        "gradient_bg": ""
+      }
+    }
+  },
+  "order": [
+    "rich_text_XcFREh",
+    "main",
+    "1719804699f651bf7c",
+    "rich_text_yHirgU"
+  ]
+}

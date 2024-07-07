@@ -1,0 +1,350 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "title_alignment": "left"
+      }
+    },
+    "rich_text_R87xxa": {
+      "type": "rich-text",
+      "settings": {
+        "title": "Frequently Asked Questions",
+        "text": "<p>Find answers to our frequently asked questions below.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "full_width": false,
+        "color_title": "#55565a",
+        "color_text": "#55565a",
+        "color_bg": "rgba(0,0,0,0)",
+        "gradient_bg": ""
+      }
+    },
+    "dingo_faq_8_xgNnMW": {
+      "type": "Dingo-FAQ-8",
+      "blocks": {
+        "faq_item_xFTQNw": {
+          "type": "faq_item",
+          "settings": {
+            "faq_item_question": "<p><strong>What's your return policy?<\/strong><\/p>",
+            "faq_item_answer": "<p>While we will try our best to make changes to any order, orders cannot be changed once they have been picked and\/or packed. We do not offer returns for a change of mind. Please choose wisely.<\/p>"
+          }
+        },
+        "faq_item_R77jY9": {
+          "type": "faq_item",
+          "settings": {
+            "faq_item_question": "<p><strong>What are the pots made of?<\/strong><\/p>",
+            "faq_item_answer": "<p>Our Willow pots are made of a blend of poly resin and fibreglass making it extremely strong, waterproof and lightweight.  Our Bad Names range is made from wood-fired clay. Our pots can be used indoors and outdoors.<\/p>"
+          }
+        },
+        "faq_item_RQrNEM": {
+          "type": "faq_item",
+          "settings": {
+            "faq_item_question": "<p><strong>Is it safe and convenient to order pots online?<\/strong><\/p>",
+            "faq_item_answer": "<p>Ordering online will save you a trip to our showroom and we’ll organise the delivery for you. Why go through all the hassle of renting a trailer or a ute, when you can get your beautiful new pots dropped at your front door! We take great care in wrapping and packaging our pots so they get to you in the best condition.<\/p>"
+          }
+        },
+        "faq_item_ptnCtc": {
+          "type": "faq_item",
+          "settings": {
+            "faq_item_question": "<p><strong>Are the pots handmade?<\/strong><\/p>",
+            "faq_item_answer": "<p>Yes! All of our pots are handmade. Products may have slight imperfections and colour variations.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "faq_item_xFTQNw",
+        "faq_item_R77jY9",
+        "faq_item_RQrNEM",
+        "faq_item_ptnCtc"
+      ],
+      "settings": {
+        "title_text": "General",
+        "faq_item_margin_bottom": 30,
+        "is_theme_font_style_used": false,
+        "font_style": "roboto_n4",
+        "text_color": "#55565a",
+        "title_font_size": 42,
+        "title_font_size_mobile": 30,
+        "title_font_weight": "bold",
+        "title_font_style": "normal",
+        "title_margin_bottom": 30,
+        "faq_question_font_size": 20,
+        "faq_question_font_size_mobile": 18,
+        "feature_answer_font_size": 16,
+        "feature_answer_font_size_mobile": 16,
+        "text_block_color": "#f1f1f1",
+        "section_background_color": "#ffffff",
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "section_padding_top_mobile": 70,
+        "section_padding_bottom_mobile": 30,
+        "custom_css": ""
+      }
+    },
+    "dingo_faq_8_UqzEd9": {
+      "type": "Dingo-FAQ-8",
+      "blocks": {
+        "faq_item_k4TPA9": {
+          "type": "faq_item",
+          "settings": {
+            "faq_item_question": "<p><strong>What happens if my pots arrive damaged?<\/strong><\/p>",
+            "faq_item_answer": "<p>We’ve 100% got your back.  If your pots arrive damaged, simply get in touch with us within 24 hours and we’ll either refund you or send you a replacement.<\/p>"
+          }
+        },
+        "faq_item_xVdRnp": {
+          "type": "faq_item",
+          "settings": {
+            "faq_item_question": "<p><strong>Does the delivery include unpacking, product placement, and rubbish removal?<\/strong><\/p>",
+            "faq_item_answer": "<p>No, The Balcony Garden nor any third-party courier service is responsible for unpacking, product placement or rubbish removal.<\/p>"
+          }
+        },
+        "faq_item_QXeWWT": {
+          "type": "faq_item",
+          "settings": {
+            "faq_item_question": "<p><strong>How is my order packaged?<\/strong><\/p>",
+            "faq_item_answer": "<p>Depending on the size of your order it will arrive in boxes or on a pallet. <\/p>"
+          }
+        },
+        "faq_item_pkA9Db": {
+          "type": "faq_item",
+          "settings": {
+            "faq_item_question": "<p><strong>Where do you ship to?<\/strong><\/p>",
+            "faq_item_answer": "<p>We ship to all states in the US, excluding Alaska and Hawaii.<\/p>"
+          }
+        },
+        "faq_item_3VBAmK": {
+          "type": "faq_item",
+          "disabled": true,
+          "settings": {
+            "faq_item_question": "<p><strong>What do you charge for shipping?<\/strong><\/p>",
+            "faq_item_answer": "<p>You can view our deliveries page here.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "faq_item_k4TPA9",
+        "faq_item_xVdRnp",
+        "faq_item_QXeWWT",
+        "faq_item_pkA9Db",
+        "faq_item_3VBAmK"
+      ],
+      "settings": {
+        "title_text": "​Delivery & Shipping",
+        "faq_item_margin_bottom": 30,
+        "is_theme_font_style_used": false,
+        "font_style": "roboto_n4",
+        "text_color": "#534f47",
+        "title_font_size": 42,
+        "title_font_size_mobile": 30,
+        "title_font_weight": "bold",
+        "title_font_style": "normal",
+        "title_margin_bottom": 30,
+        "faq_question_font_size": 20,
+        "faq_question_font_size_mobile": 18,
+        "feature_answer_font_size": 16,
+        "feature_answer_font_size_mobile": 16,
+        "text_block_color": "#f1f1f1",
+        "section_background_color": "#ffffff",
+        "section_padding_top": 80,
+        "section_padding_bottom": 0,
+        "section_padding_top_mobile": 40,
+        "section_padding_bottom_mobile": 30,
+        "custom_css": ""
+      }
+    },
+    "dingo_faq_8_bwTkHH": {
+      "type": "Dingo-FAQ-8",
+      "blocks": {
+        "faq_item_6fKmw6": {
+          "type": "faq_item",
+          "settings": {
+            "faq_item_question": "<p><strong>How do I 'pot-up' my plants?<\/strong><\/p>",
+            "faq_item_answer": "<p>It’s super easy.  Simply follow these <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0886\/3046\/0691\/files\/TBG_How_To_Pot_up_a_plant_guide_d7b4dc47-599d-41fd-be43-eb5353e2bf83_1.webp?v=1719796942\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0886\/3046\/0691\/files\/TBG_How_To_Pot_Up_a_Plant_Guide-compressed.pdf?v=1719797978\">instructions<\/a>.<\/p>"
+          }
+        },
+        "faq_item_VxKhMB": {
+          "type": "faq_item",
+          "settings": {
+            "faq_item_question": "<p><strong>Can they be used indoors and out?<\/strong><\/p>",
+            "faq_item_answer": "<p>Yes, all of our pots have been tested in Australian conditions and are suitable for use outdoors in rain, hail, sun or snow.  They also look great indoors.<\/p>"
+          }
+        },
+        "faq_item_LqjAN6": {
+          "type": "faq_item",
+          "settings": {
+            "faq_item_question": "<p><strong>How do I stop water leaking out the base of the pot?<\/strong><\/p>",
+            "faq_item_answer": "<p>If you’re using your pots inside and don’t want any water run-off; the best solution is to purchase some pot trays from your local hardware store or nursery. Or, if you would prefer not to use a tray, we recommend keeping your plant in the nursery tub and simply placing inside the pot. Remove your plant to water and place back in the pot once dry.<\/p>"
+          }
+        },
+        "faq_item_6Bqez6": {
+          "type": "faq_item",
+          "settings": {
+            "faq_item_question": "<p><strong>Do they have drainage holes?<\/strong><\/p>",
+            "faq_item_answer": "<p>Each Willow Range pot comes with 2 x 30mm drainage holes.  This ensures your plants will never sit in wet feet. Each Bad Names Range pot comes with drainage holes. <\/p>"
+          }
+        },
+        "faq_item_jt6yn7": {
+          "type": "faq_item",
+          "settings": {
+            "faq_item_question": "<p><strong>Are they waterproof?<\/strong><\/p>",
+            "faq_item_answer": "<p>Our entire range of pots are not suitable for holding water.<\/p>"
+          }
+        },
+        "faq_item_49BATh": {
+          "type": "faq_item",
+          "settings": {
+            "faq_item_question": "<p><strong>Can I paint my pots?<\/strong><\/p>",
+            "faq_item_answer": "<p>We strongly advise not to paint your pots.  Doing so will void the warranty.<\/p>"
+          }
+        },
+        "faq_item_URYpCA": {
+          "type": "faq_item",
+          "settings": {
+            "faq_item_question": "<p><strong>How many bags of potting mix do I need?<\/strong><\/p>",
+            "faq_item_answer": "<p>Check out our <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0612\/1648\/9635\/files\/TBG_POTTING_MIX_2024.pdf?v=1704931834\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0886\/3046\/0691\/files\/TBG_POTTING_MIX_2024.pdf?v=1719798157\">guide<\/a> to how many bags of potting mix you'll need. This is an approximate guide based on a 25L bag.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "faq_item_6fKmw6",
+        "faq_item_VxKhMB",
+        "faq_item_LqjAN6",
+        "faq_item_6Bqez6",
+        "faq_item_jt6yn7",
+        "faq_item_49BATh",
+        "faq_item_URYpCA"
+      ],
+      "settings": {
+        "title_text": "​Using Your Pots",
+        "faq_item_margin_bottom": 30,
+        "is_theme_font_style_used": false,
+        "font_style": "roboto_n4",
+        "text_color": "#534f47",
+        "title_font_size": 42,
+        "title_font_size_mobile": 30,
+        "title_font_weight": "bold",
+        "title_font_style": "normal",
+        "title_margin_bottom": 30,
+        "faq_question_font_size": 20,
+        "faq_question_font_size_mobile": 18,
+        "feature_answer_font_size": 16,
+        "feature_answer_font_size_mobile": 16,
+        "text_block_color": "#f1f1f1",
+        "section_background_color": "#ffffff",
+        "section_padding_top": 80,
+        "section_padding_bottom": 0,
+        "section_padding_top_mobile": 40,
+        "section_padding_bottom_mobile": 30,
+        "custom_css": ""
+      }
+    },
+    "image_gallery_AbRATq": {
+      "type": "image-gallery",
+      "blocks": {
+        "image_bGDgDp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/TheBalconyGarden_FAQs_Download-Digital-Catalogue.png",
+            "enlarge_image": false,
+            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0886\/3046\/0691\/files\/TheBalconyGarden_Digital_Catalogue_1dd7ab53-8a76-42fc-b576-17d196af6abf.pdf?v=1719796945",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "overlay_position": "center-center"
+          }
+        },
+        "image_yp8nTP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/TheBalconyGarden_FAQs_Download-Pot-Planting-Guide.png",
+            "enlarge_image": false,
+            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0886\/3046\/0691\/files\/TBG_How_To_Pot_up_a_plant_guide_d7b4dc47-599d-41fd-be43-eb5353e2bf83_1.webp?v=1719796942",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "overlay_position": "center-center"
+          }
+        },
+        "image_tzGenm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/TheBalconyGarden_FAQs_Download-Pot-Cluster-Guide.png",
+            "enlarge_image": false,
+            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0886\/3046\/0691\/files\/TBG_How_To_Create_the_perfect_3_pot_cluster-compressed_1.pdf?v=1719796936",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "overlay_position": "center-center"
+          }
+        }
+      },
+      "block_order": [
+        "image_bGDgDp",
+        "image_yp8nTP",
+        "image_tzGenm"
+      ],
+      "settings": {
+        "grid": 3,
+        "image_height": 210,
+        "image_height_mobile": 190,
+        "enable_margin": true,
+        "enable_carousel": true,
+        "overlay_style": "no_background",
+        "color_overlay_bg": "rgba(0,0,0,0)",
+        "overlay_opacity": 80,
+        "color_overlay_text": "#55565a",
+        "overlay_url_style": "button_1"
+      }
+    },
+    "video_G6btCX": {
+      "type": "video",
+      "settings": {
+        "video_external": "https:\/\/www.youtube.com\/watch?v=EIRO00iGqTs&t=18s",
+        "image": "shopify:\/\/shop_images\/ewdcdwc.png",
+        "color_overlay_bg": "#ffffff",
+        "overlay_opacity": 80,
+        "color_overlay_text": "#534f47",
+        "overlay_title": "How to Pot Up Your Plants",
+        "overlay_text": "By The Balcony Garden®",
+        "enlarge_title": true,
+        "enlarge_text": false,
+        "overlay_position_x": 50,
+        "overlay_position_y": 50,
+        "mobile_text_below": false
+      }
+    },
+    "rich_text_fYkbdf": {
+      "type": "rich-text",
+      "settings": {
+        "title": "Still have questions?",
+        "text": "<p>Get in touch with our team directly or speak to one of our staff<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "full_width": false,
+        "color_title": "#333333",
+        "color_text": "#333333",
+        "color_bg": "rgba(0,0,0,0)",
+        "gradient_bg": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_R87xxa",
+    "dingo_faq_8_xgNnMW",
+    "dingo_faq_8_UqzEd9",
+    "dingo_faq_8_bwTkHH",
+    "image_gallery_AbRATq",
+    "video_G6btCX",
+    "rich_text_fYkbdf"
+  ]
+}

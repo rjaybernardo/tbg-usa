@@ -1,0 +1,118 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "title_alignment": "left"
+      }
+    },
+    "rich_text_EVMneN": {
+      "type": "rich-text",
+      "settings": {
+        "title": "Compare the two ranges",
+        "text": "<p>Each one of our two ranges has been carefully curated to compliment both modern & classic homes.  All of the pots are suitable for indoors and outside. <\/p>",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": true,
+        "enlarge_text": false,
+        "full_width": true,
+        "color_title": "#333333",
+        "color_text": "#333333",
+        "color_bg": "#ffffff",
+        "gradient_bg": ""
+      }
+    },
+    "image_with_text_xDz83z": {
+      "type": "image-with-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/TheBalconyGarden_Spring-Competition_Submitted.jpg",
+        "image_link": "shopify:\/\/collections\/willow-range",
+        "image_size": "0",
+        "image_position": "left",
+        "title": "Willow Range®",
+        "text": "<p>A collection of classic and contemporary lightweight pots. <\/p><p>The Willow Range® is made from poly-resin, making them extremely strong yet also lightweight.  <\/p>",
+        "button_label": "View Willow Range®",
+        "button_link": "shopify:\/\/collections\/willow-range",
+        "url_style": "button_1",
+        "enlarge_title": true,
+        "enlarge_text": false,
+        "text_alignment": "center",
+        "color_text": "#333333",
+        "color_bg": "#e4e3e1",
+        "gradient_bg": ""
+      }
+    },
+    "image_with_text_mEErbN": {
+      "type": "image-with-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/CHAD_800x800_563a1696-b8d1-4924-9a44-f32886c1a5de.jpg",
+        "image_link": "shopify:\/\/collections\/bad-names-range",
+        "image_size": "0",
+        "image_position": "right",
+        "title": "Bad Names Range®",
+        "text": "<p>A collection of rustic planters handmade in Northern Thailand. <\/p><p>The Bad Names Range® is made from wood-fired clay. The centuries old technique ensures each planter is truly unique.   <\/p>",
+        "button_label": "View Bad Names Range®",
+        "button_link": "shopify:\/\/collections\/bad-names-range",
+        "url_style": "button_1",
+        "enlarge_title": true,
+        "enlarge_text": false,
+        "text_alignment": "center",
+        "color_text": "#333333",
+        "color_bg": "#e4e3e1",
+        "gradient_bg": ""
+      }
+    },
+    "image_with_text_GqDGA3": {
+      "type": "image-with-text",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/TBG-contemporary-plant-pot-ensemble-indoor-decor.jpg",
+        "image_link": "shopify:\/\/collections\/humphrey-range",
+        "image_size": "0",
+        "image_position": "left",
+        "title": "Humphrey Range®",
+        "text": "<p>The Humphrey Range® has been specifically designed for interiors. <\/p><p>Made from poly-resin, this range is lightweight and does not have drainage holes.  This means no messy spills indoors.<\/p>",
+        "button_label": "View Humphrey Range®",
+        "button_link": "shopify:\/\/collections\/humphrey-range",
+        "url_style": "button_1",
+        "enlarge_title": true,
+        "enlarge_text": false,
+        "text_alignment": "center",
+        "color_text": "#333333",
+        "color_bg": "#e4e3e1",
+        "gradient_bg": ""
+      }
+    },
+    "image_with_text_cKgp6C": {
+      "type": "image-with-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/16.webp",
+        "image_link": "",
+        "image_size": "0",
+        "image_position": "left",
+        "title": "Pot Clusters by Slugg®",
+        "text": "<p>Our sister brand, Slugg® offers prepackaged garden pot clusters that are guaranteed to look amazing. <\/p><p>Slugg® offers FREE delivery and same day dispatch.<\/p>",
+        "button_label": "Meet Slugg®",
+        "button_link": "https:\/\/slugg.co\/",
+        "url_style": "button_1",
+        "enlarge_title": true,
+        "enlarge_text": false,
+        "text_alignment": "center",
+        "color_text": "#333333",
+        "color_bg": "#ffded0",
+        "gradient_bg": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_EVMneN",
+    "image_with_text_xDz83z",
+    "image_with_text_mEErbN",
+    "image_with_text_GqDGA3",
+    "image_with_text_cKgp6C"
+  ]
+}

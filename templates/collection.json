@@ -1,0 +1,40 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-collection",
+      "blocks": {
+        "collection_FWWynK": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "product": "",
+            "collection_text_color": "#FFFFFF",
+            "collection_bg_color": "#43467F",
+            "collection_bg_gradient": "",
+            "color_overlay_bg": "#ffffff",
+            "overlay_opacity": 10,
+            "color_overlay_text": "#333333"
+          }
+        }
+      },
+      "block_order": [
+        "collection_FWWynK"
+      ],
+      "settings": {
+        "enable_feature_header": false,
+        "grid": 4,
+        "grid_mobile": "2",
+        "pagination_limit": 12,
+        "show_total": true,
+        "show_vendor": true,
+        "show_filters": false,
+        "show_filter_prod_counts": true,
+        "show_sort_by": false,
+        "show_featured": false
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

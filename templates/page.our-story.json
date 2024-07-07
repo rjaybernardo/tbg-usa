@@ -1,0 +1,215 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "title_alignment": "left"
+      }
+    },
+    "image_with_text_overlay_zE3RDi": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/TheBalconyGarden_Our-Story_Banner.jpg",
+        "image_link": "",
+        "height": "fixed",
+        "height_desktop": 700,
+        "height_mobile": 540,
+        "color_overlay_bg": "#534f47",
+        "overlay_opacity": 100,
+        "color_overlay_text": "#ffffff",
+        "text_alignment": "center",
+        "overlay_position_x": 50,
+        "overlay_position_y": 50,
+        "mobile_text_below": false,
+        "overlay_title": "Working closely with designers, artisans and international craftsman since 2006.",
+        "enlarge_title": false,
+        "overlay_title_width": 100,
+        "styled_words": "",
+        "words_style": "stencil",
+        "highlight_words_top": 10,
+        "highlight_color": "#ffffff",
+        "styled_word_color": "#b5e0fa",
+        "overlay_text": "",
+        "enlarge_text": false,
+        "overlay_url_text_1": "Shop Now",
+        "overlay_url_1": "shopify:\/\/pages\/compare",
+        "overlay_url_text_2": "",
+        "overlay_url_2": "",
+        "overlay_url_style": "button_1",
+        "color_label_background": "#ffffff",
+        "color_label_text": "#333333",
+        "show_chevron": true,
+        "product_id_1": "",
+        "chevron_position_1": "right",
+        "label_position_x_1": 20,
+        "label_position_y_1": 30,
+        "product_id_2": "",
+        "chevron_position_2": "right",
+        "label_position_x_2": 80,
+        "label_position_y_2": 50
+      }
+    },
+    "logo_list_94xmcw": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_96VLef": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/adore-home-download-1-2x_2588b93c-e228-4cc3-92db-58da943ea2d9.png",
+            "image_width": 160,
+            "link": "",
+            "title": ""
+          }
+        },
+        "logo_eWkqyY": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/inside-out-1-2x_e78cb288-470e-4bbd-b1fe-e043ec481f28.png",
+            "image_width": 160,
+            "link": "",
+            "title": ""
+          }
+        },
+        "logo_K9ADCW": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/tbg_home_logos_vogue-living_02ceb873-3f01-4b93-9e52-4a50ea749692.png",
+            "image_width": 160,
+            "link": "",
+            "title": ""
+          }
+        },
+        "logo_9FexGi": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/tbg_home_logos_belle_85601bc9-ee9c-4e26-b59e-073e78e08e2d.png",
+            "image_width": 160,
+            "link": "",
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_96VLef",
+        "logo_eWkqyY",
+        "logo_K9ADCW",
+        "logo_9FexGi"
+      ],
+      "settings": {
+        "title": "You may have seen us in",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_title": "#55565a",
+        "color_text": "#55565a",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "image_opacity": 75
+      }
+    },
+    "image_with_text_DjicFA": {
+      "type": "image-with-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/TheBalconyGarden_Our-Story_Newport-1.jpg",
+        "image_link": "",
+        "image_size": "0",
+        "image_position": "left",
+        "title": "",
+        "text": "<p>While our range has grown to include both exterior and interior pots, our passion for producing handmade pots of the highest quality is still the same. Collaborating with our customers, our collection has been designed to suit their specific needs and requirements.<\/p>",
+        "button_label": "Shop Our Range",
+        "button_link": "shopify:\/\/collections\/all",
+        "url_style": "button_2",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "text_alignment": "center",
+        "color_text": "#ffffff",
+        "color_bg": "#676d4b",
+        "gradient_bg": ""
+      }
+    },
+    "logo_list_WxtpBM": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_i8d7rK": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/TBG_Icons_Fast-Shipping.png",
+            "image_width": 160,
+            "link": "",
+            "title": "Fast shipping for online orders"
+          }
+        },
+        "logo_YLUYCH": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/TBG_Icons_Carbon-Neutral.png",
+            "image_width": 160,
+            "link": "",
+            "title": "Suitable for indoors and outside"
+          }
+        },
+        "logo_z9rQxQ": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/TBG_Icons_Ship-More.png",
+            "image_width": 160,
+            "link": "",
+            "title": "We ship more pots than anyone else"
+          }
+        },
+        "logo_cDMcrF": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/TBG_Icons_Afterpay.png",
+            "image_width": 160,
+            "link": "",
+            "title": "Buy now, pay later with Afterpay"
+          }
+        }
+      },
+      "block_order": [
+        "logo_i8d7rK",
+        "logo_YLUYCH",
+        "logo_z9rQxQ",
+        "logo_cDMcrF"
+      ],
+      "settings": {
+        "title": "",
+        "color_bg": "#ffffff",
+        "color_title": "#333333",
+        "color_text": "#333333",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "image_opacity": 75
+      }
+    },
+    "image_with_text_aKKq3X": {
+      "type": "image-with-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/TheBalconyGarden_Spring-Competition_Submitted.jpg",
+        "image_link": "",
+        "image_size": "0",
+        "image_position": "right",
+        "title": "Thoughtfully designed",
+        "text": "<p>Using ethically sourced materials and practices, we’re proud to bring you our constantly evolving collection of pots and planters. Our passion is to produce handmade pots of the highest quality. Our pots are handpicked from around the globe and are suitable for interiors and outdoors.<\/p>",
+        "button_label": "Shop Our Range",
+        "button_link": "shopify:\/\/collections\/all",
+        "url_style": "button_2",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "text_alignment": "left",
+        "color_text": "#55565a",
+        "color_bg": "#d6d1ca",
+        "gradient_bg": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_zE3RDi",
+    "logo_list_94xmcw",
+    "image_with_text_DjicFA",
+    "logo_list_WxtpBM",
+    "image_with_text_aKKq3X"
+  ]
+}

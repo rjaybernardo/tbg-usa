@@ -1,0 +1,16 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-blog-alternate",
+      "custom_css": [
+        ".created-at {display: none;}"
+      ],
+      "settings": {
+        "filter_list": "Style;Tours;News;Garden;Eats;Chats;Blog"
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}
