@@ -1,0 +1,303 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-collection",
+      "blocks": {
+        "collection_FWWynK": {
+          "type": "collection",
+          "settings": {
+            "collection": "sluggs",
+            "product": "",
+            "collection_text_color": "#ffffff",
+            "collection_bg_color": "#43467f",
+            "collection_bg_gradient": "",
+            "color_overlay_bg": "#ffffff",
+            "overlay_opacity": 10,
+            "color_overlay_text": "#333333"
+          }
+        }
+      },
+      "block_order": [
+        "collection_FWWynK"
+      ],
+      "custom_css": [
+        "h1 {text-transform: none; font-family: \"Cooper BT\", serif !important; color: #783e2b; font-size: 3.5em; margin-bottom: 10px;}",
+        ".product-block__title {margin-top: 1.5em;}",
+        ".product-block__title a {text-transform: none; font-family: \"Cooper BT\", serif !important; font-size: 2.5em; color: #553b26;}",
+        "@media (max-width: 767px) {h1 {font-size: 2em; margin-bottom: 5px; } .product-block__title a {font-size: 1.5em; }}"
+      ],
+      "settings": {
+        "enable_feature_header": false,
+        "grid": 3,
+        "grid_mobile": "1",
+        "pagination_limit": 12,
+        "show_total": false,
+        "show_vendor": true,
+        "show_filters": false,
+        "show_filter_prod_counts": true,
+        "show_sort_by": false,
+        "show_featured": false
+      }
+    },
+    "collapsible_tabs_e8MzGq": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "question_QdxdLC": {
+          "type": "question",
+          "settings": {
+            "title": "How are they different from regular The Balcony Garden pots?",
+            "answer": "<p>Answer<\/p>"
+          }
+        },
+        "question_4yknba": {
+          "type": "question",
+          "settings": {
+            "title": "How many come in a set?",
+            "answer": "<p>Answer<\/p>"
+          }
+        },
+        "question_RwraJq": {
+          "type": "question",
+          "settings": {
+            "title": "Are they cheaper?",
+            "answer": "<p>Answer<\/p>"
+          }
+        },
+        "question_UrxYHN": {
+          "type": "question",
+          "settings": {
+            "title": "Can I mix and max the colours?",
+            "answer": "<p>Answer<\/p>"
+          }
+        },
+        "question_cA486P": {
+          "type": "question",
+          "settings": {
+            "title": "How much is shipping?",
+            "answer": "<p>Answer<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_QdxdLC",
+        "question_4yknba",
+        "question_RwraJq",
+        "question_UrxYHN",
+        "question_cA486P"
+      ],
+      "custom_css": [
+        "h3 {text-transform: none; font-family: \"Cooper BT\", serif !important; color: #783e2b; font-size: 3em;}",
+        "@media (max-width: 767px) {h3 {font-size: 1.75em; }}",
+        ".cc-accordion-item__title,.cc-accordion-item__content {font-family: \"Cooper BT\", serif !important; color: #783e2b;}"
+      ],
+      "settings": {
+        "title": "Got questions about Sluggs?"
+      }
+    },
+    "multi_column_8tzMda": {
+      "type": "multi-column",
+      "blocks": {
+        "text_block_gG3ayQ": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Lucy_Garden_Pots.webp",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "Super fast delivery*",
+            "text": "<p>Actual slugs may be slow. But our super fast shipping network isn’t!<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "enlarge_title": true,
+            "enlarge_text": false
+          }
+        },
+        "text_block_NEE49q": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Lucy_Garden_Pots_1.webp",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "Good things come in threes",
+            "text": "<p>Sluggs® are sold as a set of three garden pots in a box.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "enlarge_title": true,
+            "enlarge_text": false
+          }
+        },
+        "text_block_tmxpX9": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Lucy_Garden_Pots_2.webp",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "Suitable for indoors & out",
+            "text": "<p>The entire Slugg® range is suitable for indoor and outside.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "enlarge_title": true,
+            "enlarge_text": false
+          }
+        },
+        "text_block_HFtUjJ": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Lucy_Garden_Pots_3.webp",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "Built to last",
+            "text": "<p>Slugg® garden pots are waterproof, lightweight, and tougher than nails<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "enlarge_title": true,
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "text_block_gG3ayQ",
+        "text_block_NEE49q",
+        "text_block_tmxpX9",
+        "text_block_HFtUjJ"
+      ],
+      "custom_css": [
+        "h3 {text-transform: none; font-family: \"Cooper BT\", serif !important; color: #553b26;}",
+        "p {font-family: \"DM Sans\", sans-serif !important; color: #553b26;}"
+      ],
+      "settings": {
+        "title": "",
+        "enlarge_title": false,
+        "text_alignment": "center",
+        "url_style": "button_1",
+        "enable_custom_colors": false,
+        "color_title": "",
+        "color_text": "",
+        "color_bg": "",
+        "gradient_bg": ""
+      }
+    },
+    "video_TxgQ4V": {
+      "type": "video",
+      "custom_css": [
+        "h2 {text-transform: none; font-family: \"Cooper BT\", serif !important; color: #553b26;}",
+        "svg,circle {stroke: #553b26;}",
+        ".container {margin-bottom: 5em;}",
+        "@media (max-width: 767px) {.container {margin-bottom: 2em; }}"
+      ],
+      "settings": {
+        "video_external": "https:\/\/youtu.be\/hPuxgmDtoVI?feature=shared",
+        "image": "shopify:\/\/shop_images\/CleanShot_2024-07-09_at_13.35.14.png",
+        "color_overlay_bg": "#ffffff",
+        "overlay_opacity": 41,
+        "color_overlay_text": "#333333",
+        "overlay_title": "Who is Slugg?",
+        "overlay_text": "",
+        "enlarge_title": true,
+        "enlarge_text": false,
+        "overlay_position_x": 50,
+        "overlay_position_y": 70,
+        "mobile_text_below": false
+      }
+    },
+    "featured_collection_BP8Xf6": {
+      "type": "featured-collection",
+      "custom_css": [
+        "h2 {text-transform: none; font-family: \"Cooper BT\", serif !important; color: #783e2b; font-size: 3.5em; margin-bottom: 10px;}",
+        ".product-block__title {margin-top: 1.5em;}",
+        ".product-block__title a {text-transform: none; font-family: \"Cooper BT\", serif !important; font-size: 2.5em; color: #553b26;}",
+        "@media (max-width: 767px) {h2 {font-size: 2em; margin-bottom: 5px; } .product-block__title a {font-size: 1.5em; }}"
+      ],
+      "settings": {
+        "title": "Meet the three sluggs",
+        "enlarge_title": false,
+        "link_text": "",
+        "collection": "sluggs",
+        "show_vendor": false,
+        "enable_carousel": false,
+        "grid": 3,
+        "row_count": 1,
+        "grid_mobile": "1"
+      }
+    },
+    "featured_product_GV8FqQ": {
+      "type": "featured-product",
+      "disabled": true,
+      "settings": {
+        "product": "lucy",
+        "image_size": "120",
+        "description": "<p>Pair some text with a product to highlight features.<\/p>",
+        "show_vendor": false,
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": true,
+        "section_text_colour": "#333333",
+        "color_bg": "#ffffff",
+        "gradient_bg": "",
+        "enable_video_looping": false,
+        "layout": "image_before"
+      }
+    },
+    "featured_product_4WfrC6": {
+      "type": "featured-product",
+      "disabled": true,
+      "settings": {
+        "product": "rosie",
+        "image_size": "120",
+        "description": "<p>Pair some text with a product to highlight features.<\/p>",
+        "show_vendor": false,
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "section_text_colour": "#333333",
+        "color_bg": "#ffffff",
+        "gradient_bg": "",
+        "enable_video_looping": false,
+        "layout": "image_after"
+      }
+    },
+    "featured_product_VxkUxW": {
+      "type": "featured-product",
+      "disabled": true,
+      "settings": {
+        "product": "thomas",
+        "image_size": "120",
+        "description": "<p>Pair some text with a product to highlight features.<\/p>",
+        "show_vendor": false,
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "section_text_colour": "#333333",
+        "color_bg": "#ffffff",
+        "gradient_bg": "",
+        "enable_video_looping": false,
+        "layout": "image_before"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "collapsible_tabs_e8MzGq",
+    "multi_column_8tzMda",
+    "video_TxgQ4V",
+    "featured_collection_BP8Xf6",
+    "featured_product_GV8FqQ",
+    "featured_product_4WfrC6",
+    "featured_product_VxkUxW"
+  ]
+}

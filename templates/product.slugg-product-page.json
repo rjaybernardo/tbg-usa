@@ -1,0 +1,318 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title_and_price": {
+          "type": "title_and_price",
+          "settings": {
+            "show_tax_and_shipping": false
+          }
+        },
+        "vendor": {
+          "type": "vendor",
+          "settings": {
+          }
+        },
+        "type": {
+          "type": "type",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "size_chart_enabled": false,
+            "size_chart_option_name": "Size",
+            "size_chart_page_id": ""
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "disabled": true,
+          "settings": {
+            "show_quantity_selector": true,
+            "enable_payment_button": true,
+            "show_gift_card_recipient": false,
+            "show_pickup_availability": false,
+            "show_backorder_text": false,
+            "show_inventory_notice": "never",
+            "show_inventory_count": "low",
+            "inventory_notice_threshold": 10
+          }
+        },
+        "easy_tabs_product_tabs_easytabs_block_product_widget_eVe7aR": {
+          "type": "shopify:\/\/apps\/easy-tabs-product-tabs\/blocks\/easytabs-block-product-widget\/118e2a90-d31f-4cdf-b5c9-747e2bddd19a",
+          "settings": {
+            "placement_selector": "",
+            "multiple_widgets": false
+          }
+        }
+      },
+      "block_order": [
+        "title_and_price",
+        "vendor",
+        "type",
+        "variant_picker",
+        "buy_buttons",
+        "easy_tabs_product_tabs_easytabs_block_product_widget_eVe7aR"
+      ],
+      "custom_css": [
+        "h1.product-detail__title {text-transform: none; font-family: \"Cooper BT\", serif !important; color: #783e2b; font-size: 56px; margin-bottom: 10px;}",
+        "@media (max-width: 767px) {h1.product-detail__title {font-size: 40px; margin-bottom: 5px; }}",
+        ".theme-money,.easytabs-content-holder p,.easytabs-content-holder span {font-family: \"DM Sans\", sans-serif !important; color: #513c29 !important ;}"
+      ],
+      "settings": {
+        "enable_sticky_media": true,
+        "media_size": "medium",
+        "media_layout": "thumbnails-below",
+        "enable_video_looping": false
+      }
+    },
+    "multi_column_cQYzKD": {
+      "type": "multi-column",
+      "blocks": {
+        "text_block_eeKFWq": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Lucy_Garden_Pots.webp",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "Super fast delivery*",
+            "text": "<p>Actual slugs may be slow. But our super fast shipping network isn’t!<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "enlarge_title": true,
+            "enlarge_text": false
+          }
+        },
+        "text_block_AVeMUi": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Lucy_Garden_Pots_1.webp",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "Good things come in threes",
+            "text": "<p>Sluggs® are sold as a set of three garden pots in a box.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "enlarge_title": true,
+            "enlarge_text": false
+          }
+        },
+        "text_block_XP4Tnm": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Lucy_Garden_Pots_2.webp",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "Suitable for indoors & out",
+            "text": "<p>The entire Slugg® range is suitable for indoor and outside.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "enlarge_title": true,
+            "enlarge_text": false
+          }
+        },
+        "text_block_feDcyK": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Lucy_Garden_Pots_3.webp",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "Built to last",
+            "text": "<p>Slugg® garden pots are waterproof, lightweight, and tougher than nails<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "enlarge_title": true,
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "text_block_eeKFWq",
+        "text_block_AVeMUi",
+        "text_block_XP4Tnm",
+        "text_block_feDcyK"
+      ],
+      "custom_css": [
+        "h3 {text-transform: none; font-family: \"Cooper BT\", serif !important; color: #553b26;}",
+        "p {font-family: \"DM Sans\", sans-serif !important; color: #553b26;}"
+      ],
+      "settings": {
+        "title": "",
+        "enlarge_title": false,
+        "text_alignment": "center",
+        "url_style": "button_1",
+        "enable_custom_colors": false,
+        "color_title": "#553b26",
+        "color_text": "#553b26",
+        "color_bg": "",
+        "gradient_bg": ""
+      }
+    },
+    "video_fieJrn": {
+      "type": "video",
+      "custom_css": [
+        "h2 {text-transform: none; font-family: \"Cooper BT\", serif !important; color: #553b26;}",
+        "svg,circle {stroke: #553b26;}"
+      ],
+      "settings": {
+        "video_external": "https:\/\/youtu.be\/hPuxgmDtoVI?feature=shared",
+        "image": "shopify:\/\/shop_images\/CleanShot_2024-07-09_at_13.35.14.png",
+        "color_overlay_bg": "#ffffff",
+        "overlay_opacity": 41,
+        "color_overlay_text": "#333333",
+        "overlay_title": "Who is Slugg?",
+        "overlay_text": "",
+        "enlarge_title": true,
+        "enlarge_text": false,
+        "overlay_position_x": 50,
+        "overlay_position_y": 70,
+        "mobile_text_below": false
+      }
+    },
+    "rich_text_NbfnEX": {
+      "type": "rich-text",
+      "custom_css": [
+        "h2 {text-transform: none; font-family: \"Cooper BT\", serif !important; color: #783e2b; font-size: 3em;}",
+        "@media (max-width: 767px) {h2 {font-size: 1.75em; }}",
+        "p {font-family: \"DM Sans\", sans-serif !important; color: #553b26;}"
+      ],
+      "settings": {
+        "title": "What our customers are saying.",
+        "text": "<p>Based on 315 Reviews<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": true,
+        "enlarge_text": true,
+        "full_width": false,
+        "color_title": "#333333",
+        "color_text": "#333333",
+        "color_bg": "rgba(0,0,0,0)",
+        "gradient_bg": ""
+      }
+    },
+    "collapsible_tabs_XMT67b": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "question_tEUgKa": {
+          "type": "question",
+          "settings": {
+            "title": "How are they different from regular The Balcony Garden pots?",
+            "answer": "<p>Answer<\/p>"
+          }
+        },
+        "question_WjVXk4": {
+          "type": "question",
+          "settings": {
+            "title": "How many come in a set?",
+            "answer": "<p>Answer<\/p>"
+          }
+        },
+        "question_UCe9ri": {
+          "type": "question",
+          "settings": {
+            "title": "Are they cheaper?",
+            "answer": "<p>Answer<\/p>"
+          }
+        },
+        "question_69VmpY": {
+          "type": "question",
+          "settings": {
+            "title": "Can I mix and max the colours?",
+            "answer": "<p>Answer<\/p>"
+          }
+        },
+        "question_NwFLtU": {
+          "type": "question",
+          "settings": {
+            "title": "How much is shipping?",
+            "answer": "<p>Answer<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_tEUgKa",
+        "question_WjVXk4",
+        "question_UCe9ri",
+        "question_69VmpY",
+        "question_NwFLtU"
+      ],
+      "custom_css": [
+        "h3 {text-transform: none; font-family: \"Cooper BT\", serif !important; color: #783e2b; font-size: 3em;}",
+        "@media (max-width: 767px) {h3 {font-size: 1.75em; }}",
+        ".cc-accordion-item__title,.cc-accordion-item__content {font-family: \"Cooper BT\", serif !important; color: #783e2b;}"
+      ],
+      "settings": {
+        "title": "Got questions about Sluggs?"
+      }
+    },
+    "featured_collection_ybMF9k": {
+      "type": "featured-collection",
+      "custom_css": [
+        "h2 {text-transform: none; font-family: \"Cooper BT\", serif !important; color: #783e2b; font-size: 3.5em; margin-bottom: 10px;}",
+        ".product-block__title {margin-top: 1.5em;}",
+        ".product-block__title a {text-transform: none; font-family: \"Cooper BT\", serif !important; font-size: 2.5em; color: #553b26;}",
+        "@media (max-width: 767px) {h2 {font-size: 2em; margin-bottom: 5px; } .product-block__title a {font-size: 1.5em; }}"
+      ],
+      "settings": {
+        "title": "Meet the three sluggs",
+        "enlarge_title": false,
+        "link_text": "",
+        "collection": "sluggs",
+        "show_vendor": false,
+        "enable_carousel": false,
+        "grid": 3,
+        "row_count": 1,
+        "grid_mobile": "2"
+      }
+    },
+    "recent": {
+      "type": "recently-viewed",
+      "disabled": true,
+      "settings": {
+        "show_recently_viewed": true,
+        "show_vendor": false
+      }
+    },
+    "recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "show_product_recommendations": true,
+        "title": "You may also like",
+        "grid": 5,
+        "show_vendor": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "multi_column_cQYzKD",
+    "video_fieJrn",
+    "rich_text_NbfnEX",
+    "collapsible_tabs_XMT67b",
+    "featured_collection_ybMF9k",
+    "recent",
+    "recommendations"
+  ]
+}
