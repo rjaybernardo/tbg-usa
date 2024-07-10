@@ -20,7 +20,7 @@
                 assign aspect_ratio = 0.67
               endif
             %}
-            {% render 'responsive-image', image: product.featured_media.preview_image, aspect_ratio: aspect_ratio %}
+            <img class="main-image" src="{{ product.featured_media.preview_image | img_url: '600x600' }}" alt="{{ product.featured_media.alt | escape }}" />
           </div>
           {%- if settings.hover_image_enabled == true and product.media.size > 1 -%}
             <div class="image-two">
@@ -35,7 +35,7 @@
             </div>
           {%- endif -%}
         {%- else -%}
-          {{- product.featured_media.preview_image | img_url: '600x600' | img_tag -}}
+          <img class="main-image" src="{{ product.featured_media.preview_image | img_url: '600x600' }}" alt="{{ product.featured_media.alt | escape }}" />
         {%- endif -%}
       </a>
 
@@ -92,8 +92,10 @@
               assign swatch_count = swatch_count | plus: 1
             -%}
 
-            <span class="{% if settings.swatch_method == 'image' %}product-swatch-inline__image {% else %}product-swatch-inline__dot {% endif %}rimage-background fade-in lazyload"
+            <span class="swatch {% if settings.swatch_method == 'image' %}product-swatch-inline__image {% else %}product-swatch-inline__dot {% endif %}rimage-background fade-in lazyload"
               data-option-item="{{ product_option_value | downcase | escape }}"
+              data-media-id="{{ option_value_variant.featured_media.id }}"
+              data-media-src="{{ option_value_variant.featured_media.preview_image | img_url: '600x600' }}"
               {%- if settings.swatch_method == 'standard' -%}
                 data-swatch="{{ product_option_value | downcase | replace: '"', '' }}"
               {%- elsif settings.swatch_method == 'image' and option_value_variant.featured_media -%}
@@ -149,8 +151,6 @@
     </div>
   {%- endif -%}
 
-
-
   {%- if settings.enable_product_reviews_collection and product.metafields.reviews.rating_count != blank -%}
     {%- assign rating_count = product.metafields.reviews.rating_count | plus: 0 -%}
     {%- if rating_count > 0 -%}
@@ -164,3 +164,15 @@
   {%- endif -%}
 </div>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+  $(document).ready(function() {
+    $('.swatch').click(function() {
+      var mainImage = $(this).closest('.product-block').find('.main-image');
+      var newImageSrc = $(this).data('media-src');
+      if (mainImage && newImageSrc) {
+        mainImage.attr('src', newImageSrc);
+      }
+    });
+  });
+</script>

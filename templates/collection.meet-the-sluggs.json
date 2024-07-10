@@ -1,5 +1,29 @@
 {
   "sections": {
+    "featured_collection_slugg_Nchgkt": {
+      "type": "featured-collection-slugg",
+      "custom_css": [
+        "h2 {text-transform: none; font-family: \"Cooper BT\", serif !important; color: #783e2b; font-size: 3.5em; margin-bottom: 10px;}",
+        ".product-block__title {margin-top: 1.5em;}",
+        ".product-block__title a {text-transform: none; font-family: \"Cooper BT\", serif !important; font-size: 2.5em; color: #553b26;}",
+        "@media (max-width: 767px) {h2 {font-size: 2em; margin-bottom: 5px; } .product-block__title a {font-size: 1.5em; }}",
+        ".btn.btn--secondary:not(.btn--plain) {--button-border-color: #783e2b; background-color: #d4f871; color: #783e2b;}"
+      ],
+      "settings": {
+        "title": "Meet the three sluggs",
+        "enlarge_title": false,
+        "link_text": "",
+        "collection": "sluggs",
+        "show_vendor": false,
+        "enable_carousel": false,
+        "grid": 3,
+        "row_count": 1,
+        "grid_mobile": "2",
+        "show_button": true,
+        "button_label": "Buy",
+        "button_style": "button_2"
+      }
+    },
     "main": {
       "type": "main-collection",
       "blocks": {
@@ -20,6 +44,7 @@
       "block_order": [
         "collection_FWWynK"
       ],
+      "disabled": true,
       "custom_css": [
         "h1 {text-transform: none; font-family: \"Cooper BT\", serif !important; color: #783e2b; font-size: 3.5em; margin-bottom: 10px;}",
         ".product-block__title {margin-top: 1.5em;}",
@@ -215,8 +240,33 @@
         "mobile_text_below": false
       }
     },
+    "featured_collection_slugg_Ntgnef": {
+      "type": "featured-collection-slugg",
+      "custom_css": [
+        "h2 {text-transform: none; font-family: \"Cooper BT\", serif !important; color: #783e2b; font-size: 3.5em; margin-bottom: 10px;}",
+        ".product-block__title {margin-top: 1.5em;}",
+        ".product-block__title a {text-transform: none; font-family: \"Cooper BT\", serif !important; font-size: 2.5em; color: #553b26;}",
+        "@media (max-width: 767px) {h2 {font-size: 2em; margin-bottom: 5px; } .product-block__title a {font-size: 1.5em; }}",
+        ".btn.btn--secondary:not(.btn--plain) {--button-border-color: #783e2b; background-color: #d4f871; color: #783e2b;}"
+      ],
+      "settings": {
+        "title": "Meet the three sluggs",
+        "enlarge_title": false,
+        "link_text": "",
+        "collection": "sluggs",
+        "show_vendor": false,
+        "enable_carousel": false,
+        "grid": 3,
+        "row_count": 1,
+        "grid_mobile": "1",
+        "show_button": true,
+        "button_label": "Buy",
+        "button_style": "button_2"
+      }
+    },
     "featured_collection_BP8Xf6": {
       "type": "featured-collection",
+      "disabled": true,
       "custom_css": [
         "h2 {text-transform: none; font-family: \"Cooper BT\", serif !important; color: #783e2b; font-size: 3.5em; margin-bottom: 10px;}",
         ".product-block__title {margin-top: 1.5em;}",
@@ -291,10 +341,12 @@
     }
   },
   "order": [
+    "featured_collection_slugg_Nchgkt",
     "main",
     "collapsible_tabs_e8MzGq",
     "multi_column_8tzMda",
     "video_TxgQ4V",
+    "featured_collection_slugg_Ntgnef",
     "featured_collection_BP8Xf6",
     "featured_product_GV8FqQ",
     "featured_product_4WfrC6",
