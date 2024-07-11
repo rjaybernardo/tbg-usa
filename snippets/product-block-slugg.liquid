@@ -64,6 +64,7 @@
       assign swatch_mobile_limit = 3
     -%}
     <div class="product-block__swatches">
+      {%- assign first_swatch = true -%}
       {%- for product_option in product.options_with_values -%}
         {%- liquid
           if settings.swatch_enabled_productpage and settings.swatch_option_name contains product_option.name
@@ -92,7 +93,7 @@
               assign swatch_count = swatch_count | plus: 1
             -%}
 
-            <span class="swatch {% if settings.swatch_method == 'image' %}product-swatch-inline__image {% else %}product-swatch-inline__dot {% endif %}rimage-background fade-in lazyload"
+            <span class="swatch {% if first_swatch %}selected-swatch{% endif %} {% if settings.swatch_method == 'image' %}product-swatch-inline__image {% else %}product-swatch-inline__dot {% endif %} rimage-background fade-in lazyload"
               data-option-item="{{ product_option_value | downcase | escape }}"
               data-media-id="{{ option_value_variant.featured_media.id }}"
               data-media-src="{{ option_value_variant.featured_media.preview_image | img_url: '600x600' }}"
@@ -101,6 +102,8 @@
               {%- elsif settings.swatch_method == 'image' and option_value_variant.featured_media -%}
                 data-bgset="{{ option_value_variant.featured_media.preview_image | img_url: '80x80', crop: settings.swatch_crop_align }}" data-parent-fit="cover"
               {%- endif -%}></span>
+
+            {%- assign first_swatch = false -%}
 
           {%- endfor -%}
         {%- endif -%}
@@ -137,10 +140,10 @@
     {% if product.available %}
       {% if cheapest_variant.compare_at_price > cheapest_variant.price and settings.sale_label_enabled %}
         <span class="product-label product-label--on-sale global-border-radius">{{ 'products.product.on_sale' | t }}</span>
-      {% endif %}
+      {%- endif -%}
     {% elsif settings.sold_label_enabled %}
       <span class="product-label product-label--sold-out global-border-radius">{{ 'products.product.sold_out' | t }}</span>
-    {% endif %}
+    {%- endif -%}
   </div>
 
   {%- if show_button -%}
@@ -164,15 +167,26 @@
   {%- endif -%}
 </div>
 
+
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script>
   $(document).ready(function() {
+    // Add border to default swatch for each product
+    $('.product-block').each(function() {
+      $(this).find('.swatch').first().addClass('selected-swatch');
+    });
+
     $('.swatch').click(function() {
       var mainImage = $(this).closest('.product-block').find('.main-image');
       var newImageSrc = $(this).data('media-src');
       if (mainImage && newImageSrc) {
         mainImage.attr('src', newImageSrc);
       }
+
+      // Remove border from all swatches in this product and add to the clicked one
+      $(this).closest('.product-block').find('.swatch').removeClass('selected-swatch');
+      $(this).addClass('selected-swatch');
     });
   });
 </script>
