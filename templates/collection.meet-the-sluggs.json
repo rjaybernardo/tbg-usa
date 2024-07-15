@@ -3,14 +3,14 @@
     "featured_collection_slugg_Nchgkt": {
       "type": "featured-collection-slugg",
       "custom_css": [
-        "h2 {text-transform: none; font-family: \"Cooper BT\", serif !important; color: #783e2b; font-size: 3.5em; margin-bottom: 10px;}",
+        "h2 {text-transform: none; font-family: \"Cooper Lt BT\", serif !important; color: #783e2b; font-size: 3.5em; margin-bottom: 10px;}",
         ".product-block__title {margin-top: 1.5em;}",
-        ".product-block__title a {text-transform: none; font-family: \"Cooper BT\", serif !important; font-size: 2.5em; color: #553b26;}",
+        ".product-block__title a {text-transform: none; font-family: \"Cooper Lt BT\", serif !important; font-size: 2.5em; color: #553b26;}",
         "@media (max-width: 767px) {h2 {font-size: 2em; margin-bottom: 5px; } .product-block__title a {font-size: 1.5em; }}",
         ".btn.btn--secondary:not(.btn--plain) {--button-border-color: #783e2b; background-color: #d4f871; color: #783e2b;}"
       ],
       "settings": {
-        "title": "Meet the three sluggs",
+        "title": "Meet the three Sluggs",
         "enlarge_title": false,
         "link_text": "",
         "collection": "sluggs",
@@ -18,7 +18,7 @@
         "enable_carousel": false,
         "grid": 3,
         "row_count": 1,
-        "grid_mobile": "2",
+        "grid_mobile": "1",
         "show_button": true,
         "button_label": "Buy",
         "button_style": "button_2"
@@ -71,35 +71,35 @@
           "type": "question",
           "settings": {
             "title": "How are they different from regular The Balcony Garden pots?",
-            "answer": "<p>Answer<\/p>"
+            "answer": "<p>Our Slugg range are sold in sets of three. We've designed them as ready made pot clusters that look amazing. <\/p>"
           }
         },
         "question_4yknba": {
           "type": "question",
           "settings": {
             "title": "How many come in a set?",
-            "answer": "<p>Answer<\/p>"
+            "answer": "<p>There are three pots in every Slugg set.<\/p>"
           }
         },
         "question_RwraJq": {
           "type": "question",
           "settings": {
             "title": "Are they cheaper?",
-            "answer": "<p>Answer<\/p>"
+            "answer": "<p>Yes! Because Sluggs are sold as three pots in a box, the shipping is cheaper and they require less handling in our warehouse. Sluggs work out to be roughly 50% cheaper than purchasing the same pots individually.<\/p>"
           }
         },
         "question_UrxYHN": {
           "type": "question",
           "settings": {
             "title": "Can I mix and max the colours?",
-            "answer": "<p>Answer<\/p>"
+            "answer": "<p>No. Sluggs are pre-packaged so we are unable to mix and match colours or styles.<\/p>"
           }
         },
         "question_cA486P": {
           "type": "question",
           "settings": {
             "title": "How much is shipping?",
-            "answer": "<p>Answer<\/p>"
+            "answer": "<p>We provide free metro shipping.<\/p>"
           }
         }
       },
@@ -111,9 +111,9 @@
         "question_cA486P"
       ],
       "custom_css": [
-        "h3 {text-transform: none; font-family: \"Cooper BT\", serif !important; color: #783e2b; font-size: 3em;}",
+        "h3 {text-transform: none; font-family: \"Cooper Lt BT\", serif !important; color: #783e2b; font-size: 3em;}",
         "@media (max-width: 767px) {h3 {font-size: 1.75em; }}",
-        ".cc-accordion-item__title,.cc-accordion-item__content {font-family: \"Cooper BT\", serif !important; color: #783e2b;}"
+        ".cc-accordion-item__title,.cc-accordion-item__content {font-family: \"Cooper Lt BT\", serif !important; color: #783e2b;}"
       ],
       "settings": {
         "title": "Got questions about Sluggs?"
@@ -202,7 +202,7 @@
         "text_block_HFtUjJ"
       ],
       "custom_css": [
-        "h3 {text-transform: none; font-family: \"Cooper BT\", serif !important; color: #553b26;}",
+        "h3 {text-transform: none; font-family: \"Cooper Lt BT\", serif !important; color: #553b26;}",
         "p {font-family: \"DM Sans\", sans-serif !important; color: #553b26;}"
       ],
       "settings": {
@@ -220,7 +220,7 @@
     "video_TxgQ4V": {
       "type": "video",
       "custom_css": [
-        "h2 {text-transform: none; font-family: \"Cooper BT\", serif !important; color: #553b26;}",
+        "h2 {text-transform: none; font-family: \"Cooper Lt BT\", serif !important; color: #553b26;}",
         "svg,circle {stroke: #553b26;}",
         ".container {margin-bottom: 5em;}",
         "@media (max-width: 767px) {.container {margin-bottom: 2em; }}"
@@ -243,14 +243,14 @@
     "featured_collection_slugg_Ntgnef": {
       "type": "featured-collection-slugg",
       "custom_css": [
-        "h2 {text-transform: none; font-family: \"Cooper BT\", serif !important; color: #783e2b; font-size: 3.5em; margin-bottom: 10px;}",
+        "h2 {text-transform: none; font-family: \"Cooper Lt BT\", serif !important; color: #783e2b; font-size: 3.5em; margin-bottom: 10px;}",
         ".product-block__title {margin-top: 1.5em;}",
-        ".product-block__title a {text-transform: none; font-family: \"Cooper BT\", serif !important; font-size: 2.5em; color: #553b26;}",
+        ".product-block__title a {text-transform: none; font-family: \"Cooper Lt BT\", serif !important; font-size: 2.5em; color: #553b26;}",
         "@media (max-width: 767px) {h2 {font-size: 2em; margin-bottom: 5px; } .product-block__title a {font-size: 1.5em; }}",
         ".btn.btn--secondary:not(.btn--plain) {--button-border-color: #783e2b; background-color: #d4f871; color: #783e2b;}"
       ],
       "settings": {
-        "title": "Meet the three sluggs",
+        "title": "Meet the three Sluggs",
         "enlarge_title": false,
         "link_text": "",
         "collection": "sluggs",

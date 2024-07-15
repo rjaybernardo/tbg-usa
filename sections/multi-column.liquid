@@ -57,7 +57,7 @@
 
     <div class="{% if section.blocks.size > 1 %}grid-flex flex {% endif %}large-row-over text-{{ section.settings.text_alignment }}">
       {% for block in section.blocks %}
-        <div id="block-id-{{ block.id }}" class="{% if section.blocks.size == 1 %}reading-width reading-width--no-mobile-padding{% else %}grid-flex__item{% endif %} {{ grid_item_class }} small-down--one-whole" {{ block.shopify_attributes }}
+        <div id="block-id-{{ block.id }}" class="{% if section.blocks.size == 1 %}reading-width reading-width--no-mobile-padding{% else %}grid-flex__item{% endif %} {{ grid_item_class }} small-down--one-half" {{ block.shopify_attributes }}
              data-cc-animate="fade-in-up" data-cc-animate-delay="{{ forloop.index | times: 0.07 }}s">
           {% if block.settings.enable_image %}
             <div class="text-column__image global-border-radius large-row-under">
