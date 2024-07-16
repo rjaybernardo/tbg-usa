@@ -1,0 +1,32 @@
+{% if product %}
+    <div class="product-addon" data-product-id="{{ product.variants.first.id }}">
+        <div class="product-addon-content">
+            <div class="modal-image-container">
+                <a href="{{ product.url }}">
+                    <img
+                        src="{{ product.featured_image | image_url: width: 62, height: 62 }}"
+                        width="62"
+                        height="62"
+                        alt="{{ product.title | escape }}"
+                        style="cursor: pointer;">
+                </a>
+            </div>
+            <div class="addon-text">
+                <a href="{{ product.url }}">
+                    <p>{{ product.title }}</p>
+                </a>
+                <p>
+                    <span>{{ product.price | money_with_currency }}</span>
+                    {% if product.compare_at_price > product.price %}
+                        <span style="text-decoration: line-through; color: gray;">{{ product.compare_at_price | money_with_currency }}</span>
+                    {% endif %}
+                </p>
+            </div>
+        </div>
+        <div>
+            <button class="toggle-add-to-cart btn btn--primary" onclick="toggleCart('{{ product.variants.first.id }}', this)">+ Add</button>
+        </div>
+    </div>
+{% else %}
+    <p>Product not found.</p>
+{% endif %}
