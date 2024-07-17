@@ -427,7 +427,6 @@
                   {% else %}
                     <p>Product not found.</p>
                   {% endif %}
-
                 {%- when 'description' -%}
                   {%- capture product_description -%}
                     {% if block.settings.show_tabs %}
@@ -992,17 +991,17 @@
         }
       ]
     },
-    {
-      "type": "product_addon",
-      "name": "Product Addon",
-      "settings": [
-        {
-          "type": "product",
-          "id": "product_id",
-          "label": "Select a Product"
-        }
-      ]
-    },
+     {
+    "type": "product_addon",
+    "name": "Product Addon",
+    "settings": [
+      {
+        "type": "product",
+        "id": "product_id",
+        "label": "Select a Product"
+      }
+    ]
+  },
     {
       "type": "complementary",
       "name": "Complementary products",
@@ -1921,7 +1920,7 @@
           "options": [
             { "value": "button_1", "label": "Button - primary" },
             { "value": "button_2", "label": "Button - secondary" },
-            { "value": "link_style", "label": "Link" }
+            { "value": "link_style", "label": "Link"}
           ],
           "default": "button_1"
         }
