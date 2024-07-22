@@ -1,16 +1,38 @@
 {
   "sections": {
+    "rich_text_ijdKYp": {
+      "type": "rich-text",
+      "custom_css": [
+        "h2 {text-transform: none; font-family: \"Cooper Lt BT\", serif !important; color: #783e2b; font-size: 4em;}",
+        "p {font-size: 1.2em;}",
+        "@media (max-width: 767px) {h2 {font-size: 2.9em; }}"
+      ],
+      "settings": {
+        "title": "Slugg garden pot clusters.",
+        "text": "<p>🌵Garden pots sold in sets of three.<\/p><p>🌵 Up to 50% cheaper than buying the same pots individually.<\/p><p>🌵 Free metro shipping.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": true,
+        "enlarge_text": false,
+        "full_width": false,
+        "color_title": "#333333",
+        "color_text": "#783e2b",
+        "color_bg": "rgba(0,0,0,0)",
+        "gradient_bg": ""
+      }
+    },
     "featured_collection_slugg_Nchgkt": {
       "type": "featured-collection-slugg",
       "custom_css": [
         "h2 {text-transform: none; font-family: \"Cooper Lt BT\", serif !important; color: #783e2b; font-size: 3.5em; margin-bottom: 10px;}",
-        ".product-block__title {margin-top: 1.5em;}",
+        ".product-block__title {margin-top: 2em;}",
         ".product-block__title a {text-transform: none; font-family: \"Cooper Lt BT\", serif !important; font-size: 2.5em; color: #553b26;}",
-        "@media (max-width: 767px) {h2 {font-size: 2em; margin-bottom: 5px; } .product-block__title a {font-size: 1.5em; }}",
-        ".btn.btn--secondary:not(.btn--plain) {--button-border-color: #783e2b; background-color: #d4f871; color: #783e2b;}"
+        "@media (max-width: 767px) {h2 {font-size: 2em; margin-bottom: 5px; } .product-block__title a {font-size: 2em; }}",
+        ".btn.btn--secondary:not(.btn--plain) {--button-border-color: #783e2b; background-color: #d4f871; color: #783e2b; margin-top: 2%;}"
       ],
       "settings": {
-        "title": "Meet the three Sluggs",
+        "title": "",
         "enlarge_title": false,
         "link_text": "",
         "collection": "sluggs",
@@ -244,10 +266,10 @@
       "type": "featured-collection-slugg",
       "custom_css": [
         "h2 {text-transform: none; font-family: \"Cooper Lt BT\", serif !important; color: #783e2b; font-size: 3.5em; margin-bottom: 10px;}",
-        ".product-block__title {margin-top: 1.5em;}",
+        ".product-block__title {margin-top: 2em;}",
         ".product-block__title a {text-transform: none; font-family: \"Cooper Lt BT\", serif !important; font-size: 2.5em; color: #553b26;}",
-        "@media (max-width: 767px) {h2 {font-size: 2em; margin-bottom: 5px; } .product-block__title a {font-size: 1.5em; }}",
-        ".btn.btn--secondary:not(.btn--plain) {--button-border-color: #783e2b; background-color: #d4f871; color: #783e2b;}"
+        "@media (max-width: 767px) {h2 {font-size: 2em; margin-bottom: 5px; } .product-block__title a {font-size: 2em; }}",
+        ".btn.btn--secondary:not(.btn--plain) {--button-border-color: #783e2b; background-color: #d4f871; color: #783e2b; margin-top: 2%;}"
       ],
       "settings": {
         "title": "Meet the three Sluggs",
@@ -341,6 +363,7 @@
     }
   },
   "order": [
+    "rich_text_ijdKYp",
     "featured_collection_slugg_Nchgkt",
     "main",
     "collapsible_tabs_e8MzGq",

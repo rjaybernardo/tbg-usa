@@ -42,6 +42,30 @@
             "inventory_notice_threshold": 10
           }
         },
+        "custom_liquid_7ANkye": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<h4 class=\"primary-title center\">ADD TO YOUR ORDER<\/h4>"
+          }
+        },
+        "product_addon_NAH8cY": {
+          "type": "product_addon",
+          "settings": {
+            "product_id": "drainage-kit"
+          }
+        },
+        "product_addon_kARANQ": {
+          "type": "product_addon",
+          "settings": {
+            "product_id": "pot-trays"
+          }
+        },
+        "custom_liquid_RUUXw8": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div style=\"padding: 1% 0;\"><\/div>"
+          }
+        },
         "easy_tabs_product_tabs_easytabs_block_product_widget_eVe7aR": {
           "type": "shopify:\/\/apps\/easy-tabs-product-tabs\/blocks\/easytabs-block-product-widget\/118e2a90-d31f-4cdf-b5c9-747e2bddd19a",
           "settings": {
@@ -56,6 +80,10 @@
         "type",
         "variant_picker",
         "buy_buttons",
+        "custom_liquid_7ANkye",
+        "product_addon_NAH8cY",
+        "product_addon_kARANQ",
+        "custom_liquid_RUUXw8",
         "easy_tabs_product_tabs_easytabs_block_product_widget_eVe7aR"
       ],
       "custom_css": [
@@ -288,10 +316,10 @@
       "type": "featured-collection-slugg",
       "custom_css": [
         "h2 {text-transform: none; font-family: \"Cooper Lt BT\", serif !important; color: #783e2b; font-size: 3.5em; margin-bottom: 10px;}",
-        ".product-block__title {margin-top: 1.5em;}",
+        ".product-block__title {margin-top: 2em;}",
         ".product-block__title a {text-transform: none; font-family: \"Cooper Lt BT\", serif !important; font-size: 2.5em; color: #553b26;}",
-        "@media (max-width: 767px) {h2 {font-size: 2em; margin-bottom: 5px; } .product-block__title a {font-size: 1.5em; }}",
-        ".btn.btn--secondary:not(.btn--plain) {--button-border-color: #783e2b; background-color: #d4f871; color: #783e2b;}"
+        "@media (max-width: 767px) {h2 {font-size: 2em; margin-bottom: 5px; } .product-block__title a {font-size: 2em; }}",
+        ".btn.btn--secondary:not(.btn--plain) {--button-border-color: #783e2b; background-color: #d4f871; color: #783e2b; margin-top: 2%;}"
       ],
       "settings": {
         "title": "Meet the three Sluggs",

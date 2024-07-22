@@ -24,7 +24,7 @@
         "enable_feature_header": false,
         "grid": 4,
         "grid_mobile": "2",
-        "pagination_limit": 50,
+        "pagination_limit": 20,
         "show_total": true,
         "show_vendor": true,
         "show_filters": false,
