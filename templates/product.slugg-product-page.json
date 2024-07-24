@@ -220,29 +220,6 @@
         "mobile_text_below": false
       }
     },
-    "rich_text_NbfnEX": {
-      "type": "rich-text",
-      "disabled": true,
-      "custom_css": [
-        "h2 {text-transform: none; font-family: \"Cooper BT\", serif !important; color: #783e2b; font-size: 3em;}",
-        "@media (max-width: 767px) {h2 {font-size: 1.75em; }}",
-        "p {font-family: \"DM Sans\", sans-serif !important; color: #553b26;}"
-      ],
-      "settings": {
-        "title": "What our customers are saying.",
-        "text": "<p>Based on 315 Reviews<\/p>",
-        "button_label": "",
-        "button_link": "",
-        "url_style": "button_1",
-        "enlarge_title": true,
-        "enlarge_text": true,
-        "full_width": false,
-        "color_title": "#333333",
-        "color_text": "#333333",
-        "color_bg": "rgba(0,0,0,0)",
-        "gradient_bg": ""
-      }
-    },
     "custom_liquid_RbmTpk": {
       "type": "custom-liquid",
       "custom_css": [
@@ -283,8 +260,8 @@
         "question_69VmpY": {
           "type": "question",
           "settings": {
-            "title": "Can I mix and max the colours?",
-            "answer": "<p>No. Sluggs are pre-packaged so we are unable to mix and match colours or styles.<\/p>"
+            "title": "Can I mix and match the colors?",
+            "answer": "<p>No. Sluggs are pre-packaged so we are unable to mix and match colors or styles.<\/p>"
           }
         },
         "question_NwFLtU": {
@@ -336,27 +313,6 @@
         "button_style": "button_2"
       }
     },
-    "featured_collection_ybMF9k": {
-      "type": "featured-collection",
-      "disabled": true,
-      "custom_css": [
-        "h2 {text-transform: none; font-family: \"Cooper BT\", serif !important; color: #783e2b; font-size: 3.5em; margin-bottom: 10px;}",
-        ".product-block__title {margin-top: 1.5em;}",
-        ".product-block__title a {text-transform: none; font-family: \"Cooper BT\", serif !important; font-size: 2.5em; color: #553b26;}",
-        "@media (max-width: 767px) {h2 {font-size: 2em; margin-bottom: 5px; } .product-block__title a {font-size: 1.5em; }}"
-      ],
-      "settings": {
-        "title": "Meet the three sluggs",
-        "enlarge_title": false,
-        "link_text": "",
-        "collection": "sluggs",
-        "show_vendor": false,
-        "enable_carousel": false,
-        "grid": 3,
-        "row_count": 1,
-        "grid_mobile": "2"
-      }
-    },
     "recent": {
       "type": "recently-viewed",
       "disabled": true,
@@ -380,11 +336,9 @@
     "main",
     "multi_column_cQYzKD",
     "video_fieJrn",
-    "rich_text_NbfnEX",
     "custom_liquid_RbmTpk",
     "collapsible_tabs_XMT67b",
     "featured_collection_slugg_xNc7fy",
-    "featured_collection_ybMF9k",
     "recent",
     "recommendations"
   ]

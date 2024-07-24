@@ -113,8 +113,8 @@
         "question_UrxYHN": {
           "type": "question",
           "settings": {
-            "title": "Can I mix and max the colours?",
-            "answer": "<p>No. Sluggs are pre-packaged so we are unable to mix and match colours or styles.<\/p>"
+            "title": "Can I mix and match the colors?",
+            "answer": "<p>No. Sluggs are pre-packaged so we are unable to mix and match colors or styles.<\/p>"
           }
         },
         "question_cA486P": {
@@ -285,81 +285,6 @@
         "button_label": "Buy",
         "button_style": "button_2"
       }
-    },
-    "featured_collection_BP8Xf6": {
-      "type": "featured-collection",
-      "disabled": true,
-      "custom_css": [
-        "h2 {text-transform: none; font-family: \"Cooper BT\", serif !important; color: #783e2b; font-size: 3.5em; margin-bottom: 10px;}",
-        ".product-block__title {margin-top: 1.5em;}",
-        ".product-block__title a {text-transform: none; font-family: \"Cooper BT\", serif !important; font-size: 2.5em; color: #553b26;}",
-        "@media (max-width: 767px) {h2 {font-size: 2em; margin-bottom: 5px; } .product-block__title a {font-size: 1.5em; }}"
-      ],
-      "settings": {
-        "title": "Meet the three sluggs",
-        "enlarge_title": false,
-        "link_text": "",
-        "collection": "sluggs",
-        "show_vendor": false,
-        "enable_carousel": false,
-        "grid": 3,
-        "row_count": 1,
-        "grid_mobile": "1"
-      }
-    },
-    "featured_product_GV8FqQ": {
-      "type": "featured-product",
-      "disabled": true,
-      "settings": {
-        "product": "lucy",
-        "image_size": "120",
-        "description": "<p>Pair some text with a product to highlight features.<\/p>",
-        "show_vendor": false,
-        "url_style": "button_1",
-        "enlarge_title": false,
-        "enlarge_text": true,
-        "section_text_colour": "#333333",
-        "color_bg": "#ffffff",
-        "gradient_bg": "",
-        "enable_video_looping": false,
-        "layout": "image_before"
-      }
-    },
-    "featured_product_4WfrC6": {
-      "type": "featured-product",
-      "disabled": true,
-      "settings": {
-        "product": "rosie",
-        "image_size": "120",
-        "description": "<p>Pair some text with a product to highlight features.<\/p>",
-        "show_vendor": false,
-        "url_style": "button_1",
-        "enlarge_title": false,
-        "enlarge_text": false,
-        "section_text_colour": "#333333",
-        "color_bg": "#ffffff",
-        "gradient_bg": "",
-        "enable_video_looping": false,
-        "layout": "image_after"
-      }
-    },
-    "featured_product_VxkUxW": {
-      "type": "featured-product",
-      "disabled": true,
-      "settings": {
-        "product": "thomas",
-        "image_size": "120",
-        "description": "<p>Pair some text with a product to highlight features.<\/p>",
-        "show_vendor": false,
-        "url_style": "button_1",
-        "enlarge_title": false,
-        "enlarge_text": false,
-        "section_text_colour": "#333333",
-        "color_bg": "#ffffff",
-        "gradient_bg": "",
-        "enable_video_looping": false,
-        "layout": "image_before"
-      }
     }
   },
   "order": [
@@ -369,10 +294,6 @@
     "collapsible_tabs_e8MzGq",
     "multi_column_8tzMda",
     "video_TxgQ4V",
-    "featured_collection_slugg_Ntgnef",
-    "featured_collection_BP8Xf6",
-    "featured_product_GV8FqQ",
-    "featured_product_4WfrC6",
-    "featured_product_VxkUxW"
+    "featured_collection_slugg_Ntgnef"
   ]
 }

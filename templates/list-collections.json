@@ -7,7 +7,7 @@
           "type": "image",
           "settings": {
             "collection": "willow-range",
-            "collection_text_color": "#FFFFFF",
+            "collection_text_color": "#ffffff",
             "collection_bg_color": "#c9c9c7",
             "collection_bg_gradient": "",
             "color_overlay_bg": "#ffffff",
@@ -21,8 +21,22 @@
           "type": "image",
           "settings": {
             "collection": "bad-names-range",
-            "collection_text_color": "#FFFFFF",
+            "collection_text_color": "#ffffff",
             "collection_bg_color": "#c9c9c7",
+            "collection_bg_gradient": "",
+            "color_overlay_bg": "#ffffff",
+            "overlay_opacity": 10,
+            "color_overlay_text": "#333333",
+            "overlay_url_text": "Shop now",
+            "overlay_url_style": "link_style"
+          }
+        },
+        "image_Diy8YV": {
+          "type": "image",
+          "settings": {
+            "collection": "sluggs",
+            "collection_text_color": "#FFFFFF",
+            "collection_bg_color": "#43467F",
             "collection_bg_gradient": "",
             "color_overlay_bg": "#ffffff",
             "overlay_opacity": 10,
@@ -34,14 +48,15 @@
       },
       "block_order": [
         "image_JEbpby",
-        "image_XBYhcz"
+        "image_XBYhcz",
+        "image_Diy8YV"
       ],
       "settings": {
         "title": "Collection list",
         "display_type": "selected",
         "layout": "grid",
-        "grid": 2,
-        "grid_mobile": "2",
+        "grid": 3,
+        "grid_mobile": "1",
         "row_count": 3,
         "alternate_rows": false,
         "overlay_url_text": "Shop now",
