@@ -1,4 +1,8 @@
-<footer class="page-footer {% if section.settings.sticky_footer %}page-footer--with-sticky-footer{% endif %}" data-section-id="{{ section.id }}" data-section-type="footer">
+<footer
+  class="page-footer {% if section.settings.sticky_footer %}page-footer--with-sticky-footer{% endif %}"
+  data-section-id="{{ section.id }}"
+  data-section-type="footer"
+>
   <div class="page-footer__inner {% if section.settings.sticky_footer %}sticky-footer{% endif %}">
     <div class="container">
       <div class="page-width">
@@ -34,7 +38,14 @@
                     <label class="subscribe-form__label" for="footer_mailinglist_email">
                       {{- section.settings.subscribe_label -}}
                     </label>
-                    <input type="email" required class="subscribe-form__email required" value="" id="footer_mailinglist_email" name="contact[email]">
+                    <input
+                      type="email"
+                      required
+                      class="subscribe-form__email required"
+                      value=""
+                      id="footer_mailinglist_email"
+                      name="contact[email]"
+                    >
                   </div>
                   <button class="btn btn--secondary subscribe-form__submit" type="submit">
                     {{- section.settings.subscribe_button -}}
@@ -74,6 +85,14 @@
                   {%- when 'social' -%}
                     <p class="footer-block__heading">{{ block.settings.heading | escape }}</p>
                     {%- render 'social-icons', icon_setting: settings.social_custom_icon_footer, icon_size: '48x' -%}
+
+                    {%- if block.settings.enable_country_icons -%}
+                      <p class="footer-block__heading" style="padding-top: 20px">
+                        {{ block.settings['heading-country'] | escape }}
+                      </p>
+                      {%- render 'country-icons', icon_setting: settings.social_custom_icon_footer, icon_size: '48x' -%}
+                    {%- endif -%}
+
                     {%- if shop.features.follow_on_shop? and block.settings.enable_follow_on_shop -%}
                       <div class="follow-on-shop">
                         {{- shop | login_button: action: 'follow' -}}
@@ -92,7 +111,6 @@
                         {{- shop | login_button: action: 'follow' -}}
                       </div>
                     {%- endif -%}
-
                 {%- endcase -%}
               </div>
             {%- endfor -%}
@@ -113,7 +131,8 @@
             {%- endif -%}
 
             <small class="copyright-text">
-              {{ 'layout.footer.copyright' | t }} &copy; {{ 'now' | date: "%Y" }} <a href="{{ routes.root_url }}">{{ shop.name }}</a>.
+              {{ 'layout.footer.copyright' | t }} &copy; {{ 'now' | date: '%Y' }}
+              <a href="{{ routes.root_url }}">{{ shop.name }}</a>.
               {% if section.settings.show_powered_by %}
                 {{ powered_by_link }}
               {% endif %}
@@ -147,155 +166,167 @@
 </footer>
 
 {% schema %}
-  {
-    "name": "Footer",
-    "settings": [
-      {
-        "type": "link_list",
-        "id": "small_linklist",
-        "label": "Secondary menu",
-        "info": "This menu won't show dropdown items"
-      },
-      {
-        "type": "checkbox",
-        "id": "show_powered_by",
-        "label": "Show 'Powered by Shopify'",
-        "default": true
-      },
-      {
-        "type": "checkbox",
-        "id": "show_payment_icons",
-        "label": "Show payment icons",
-        "default": true
-      },
-      {
-        "type": "checkbox",
-        "id": "sticky_footer",
-        "label": "Enable scroll-reveal effect",
-        "default": false,
-        "info": "Only shown on desktop screens"
-      },
-      {
-        "type": "header",
-        "content": "Country/Region Selector",
-        "info": "To add a country/region, go to your [payment settings.](/admin/settings/payments)"
-      },
-      {
-        "type": "checkbox",
-        "id": "show_country_selector",
-        "label": "Enable country/region selector",
-        "default": true
-      },
-      {
-        "type": "header",
-        "content": "Language Selector",
-        "info": "To add a language, go to your [language settings.](/admin/settings/languages)"
-      },
-      {
-        "type": "checkbox",
-        "id": "show_language_selector",
-        "label": "Show language selector",
-        "default": true
-      },
-      {
-        "type": "header",
-        "content": "Newsletter"
-      },
-      {
-        "type": "checkbox",
-        "id": "show_subscribe_form",
-        "label": "Show newsletter signup",
-        "default": true
-      },
-      {
-        "type": "text",
-        "id": "subscribe_title",
-        "label": "Heading",
-        "default": "Get updates"
-      },
-      {
-        "type": "text",
-        "id": "subscribe_label",
-        "label": "Label",
-        "default": "Email address"
-      },
-      {
-        "type": "text",
-        "id": "subscribe_button",
-        "label": "Submit button text",
-        "default": "Sign up"
-      },
-      {
-        "type": "richtext",
-        "id": "subscribe_description",
-        "label": "Subheading"
-      }
-    ],
-    "max_blocks": 4,
-    "blocks": [
-      {
-        "type": "link_list",
-        "name": "Menu",
-        "settings": [
-          {
-            "type": "text",
-            "id": "heading",
-            "label": "Heading",
-            "default": "Footer links"
-          },
-          {
-            "type": "link_list",
-            "id": "menu",
-            "label": "Menu",
-            "default": "footer"
-          }
-        ]
-      },
-      {
-        "type": "social",
-        "name": "Social links",
-        "settings": [
-          {
-            "type": "text",
-            "id": "heading",
-            "label": "Heading",
-            "default": "Follow us"
-          },
-          {
-            "type": "checkbox",
-            "id": "enable_follow_on_shop",
-            "label": "Enable Follow on Shop",
-            "info": "To allow customers to follow your store on the Shop app from your storefront, Shop Pay must be enabled. [Learn more](https://help.shopify.com/manual/online-store/themes/customizing-themes/follow-on-shop)",
-            "default": false
-          }
-        ]
-      },
-      {
-        "type": "text",
-        "name": "Text area",
-        "settings": [
-          {
-            "type": "text",
-            "id": "heading",
-            "label": "Heading",
-            "default": "Talk about your store"
-          },
-          {
-            "type": "richtext",
-            "id": "text",
-            "label": "Text",
-            "default": "<p>Share store details, promotions, or brand content with your customers.</p>"
-          },
-          {
-            "type": "checkbox",
-            "id": "enable_follow_on_shop",
-            "label": "Enable Follow on Shop",
-            "info": "To allow customers to follow your store on the Shop app from your storefront, Shop Pay must be enabled. [Learn more](https://help.shopify.com/manual/online-store/themes/customizing-themes/follow-on-shop)",
-            "default": false
-          }
-        ]
-      }
-    ]
-  }
+{
+  "name": "Footer",
+  "settings": [
+    {
+      "type": "link_list",
+      "id": "small_linklist",
+      "label": "Secondary menu",
+      "info": "This menu won't show dropdown items"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_powered_by",
+      "label": "Show 'Powered by Shopify'",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_payment_icons",
+      "label": "Show payment icons",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "sticky_footer",
+      "label": "Enable scroll-reveal effect",
+      "default": false,
+      "info": "Only shown on desktop screens"
+    },
+    {
+      "type": "header",
+      "content": "Country/Region Selector",
+      "info": "To add a country/region, go to your [payment settings.](/admin/settings/payments)"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_country_selector",
+      "label": "Enable country/region selector",
+      "default": true
+    },
+    {
+      "type": "header",
+      "content": "Language Selector",
+      "info": "To add a language, go to your [language settings.](/admin/settings/languages)"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_language_selector",
+      "label": "Show language selector",
+      "default": true
+    },
+    {
+      "type": "header",
+      "content": "Newsletter"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_subscribe_form",
+      "label": "Show newsletter signup",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "subscribe_title",
+      "label": "Heading",
+      "default": "Get updates"
+    },
+    {
+      "type": "text",
+      "id": "subscribe_label",
+      "label": "Label",
+      "default": "Email address"
+    },
+    {
+      "type": "text",
+      "id": "subscribe_button",
+      "label": "Submit button text",
+      "default": "Sign up"
+    },
+    {
+      "type": "richtext",
+      "id": "subscribe_description",
+      "label": "Subheading"
+    }
+  ],
+  "max_blocks": 4,
+  "blocks": [
+    {
+      "type": "link_list",
+      "name": "Menu",
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Heading",
+          "default": "Footer links"
+        },
 
+        {
+          "type": "link_list",
+          "id": "menu",
+          "label": "Menu",
+          "default": "footer"
+        }
+      ]
+    },
+    {
+      "type": "social",
+      "name": "Social links",
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Heading",
+          "default": "Follow us"
+        },
+        {
+          "type": "checkbox",
+          "id": "enable_country_icons",
+          "label": "Enable Country Selector",
+          "default": false
+        },
+        {
+          "type": "text",
+          "id": "heading-country",
+          "label": "Country Heading",
+          "default": "Not in the right place?"
+        },
+        {
+          "type": "checkbox",
+          "id": "enable_follow_on_shop",
+          "label": "Enable Follow on Shop",
+          "info": "To allow customers to follow your store on the Shop app from your storefront, Shop Pay must be enabled. [Learn more](https://help.shopify.com/manual/online-store/themes/customizing-themes/follow-on-shop)",
+          "default": false
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "name": "Text area",
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Heading",
+          "default": "Talk about your store"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Text",
+          "default": "<p>Share store details, promotions, or brand content with your customers.</p>"
+        },
+        {
+          "type": "checkbox",
+          "id": "enable_follow_on_shop",
+          "label": "Enable Follow on Shop",
+          "info": "To allow customers to follow your store on the Shop app from your storefront, Shop Pay must be enabled. [Learn more](https://help.shopify.com/manual/online-store/themes/customizing-themes/follow-on-shop)",
+          "default": false
+        }
+      ]
+    }
+  ]
+}
 {% endschema %}

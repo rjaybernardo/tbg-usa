@@ -1,3 +1,5 @@
+// Product Addon
+
 function toggleCart(variantId, button) {
     if (button.textContent === '+ Add') {
         addToCart(variantId, button);
@@ -49,3 +51,14 @@ function removeFromCart(variantId, button) {
         console.error('Error:', error);
     });
 }
+
+// Footer Country Selector
+
+document.addEventListener('DOMContentLoaded', function() {
+    var usFlagLink = document.getElementById('flag-us');
+    if (usFlagLink) {
+      usFlagLink.addEventListener('click', function(event) {
+        event.preventDefault();
+      });
+    }
+  });
