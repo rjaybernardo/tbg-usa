@@ -4,7 +4,7 @@
       "type": "rich-text",
       "settings": {
         "title": "Do you have questions?",
-        "text": "<p>Contact us via the form below and we'll get back to you asap.<\/p>",
+        "text": "<p>We're launching in the USA in November 2024. If you have any questions, please send an email to info@thebalconygarden.com.au.<\/p>",
         "button_label": "",
         "button_link": "",
         "url_style": "button_1",
@@ -54,18 +54,20 @@
         "klaviyo_email_marketing_sms_form_embed_block_cjim4n": {
           "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
           "settings": {
-            "formId": "<div class=\"klaviyo-form-RXgNpC\"><\/div>"
+            "formId": ""
           }
         }
       },
       "block_order": [
         "klaviyo_email_marketing_sms_form_embed_block_cjim4n"
       ],
+      "disabled": true,
       "settings": {
       }
     },
     "rich_text_yHirgU": {
       "type": "rich-text",
+      "disabled": true,
       "settings": {
         "title": "Need a hand? Be sure to check our FAQ's",
         "text": "",

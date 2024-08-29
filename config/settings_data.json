@@ -119,6 +119,8 @@
             "type": "social",
             "settings": {
               "heading": "Follow us",
+              "enable_country_icons": true,
+              "heading-country": "Not in the right place?",
               "enable_follow_on_shop": false
             }
           }

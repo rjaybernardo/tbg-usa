@@ -59,16 +59,20 @@
         },
         "custom_liquid_dxbEcb": {
           "type": "custom_liquid",
-          "disabled": true,
           "settings": {
             "custom_liquid": "<h4 class=\"primary-title center\">ADD TO YOUR ORDER<\/h4>"
           }
         },
         "product_addon_zg6Wiy": {
           "type": "product_addon",
-          "disabled": true,
           "settings": {
             "product_id": "folding-trowel"
+          }
+        },
+        "product_addon_mfAiHJ": {
+          "type": "product_addon",
+          "settings": {
+            "product_id": "potting-mat"
           }
         },
         "product_addon_QJV4Az": {
@@ -120,6 +124,7 @@
         "buy_buttons",
         "custom_liquid_dxbEcb",
         "product_addon_zg6Wiy",
+        "product_addon_mfAiHJ",
         "product_addon_QJV4Az",
         "custom_liquid_mYxcr3",
         "easy_tabs_product_tabs_easytabs_block_product_widget_eVe7aR",
@@ -148,7 +153,7 @@
           "settings": {
             "only_photos": false,
             "aggregated": false,
-            "limit": 20,
+            "limit": 12,
             "hide_thumbnails": false,
             "maxwidth": 1080,
             "is_sample": true

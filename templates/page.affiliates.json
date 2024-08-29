@@ -1,0 +1,40 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "title_alignment": "left"
+      }
+    },
+    "rich_text_GnBjJj": {
+      "type": "rich-text",
+      "settings": {
+        "title": "Join our affiliate network",
+        "text": "<p>As an affiliate, you will earn commission when your readers make a purchase with The Balcony Garden.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "full_width": false,
+        "color_title": "#333333",
+        "color_text": "#333333",
+        "color_bg": "#ffffff",
+        "gradient_bg": ""
+      }
+    },
+    "custom_liquid_C7Bt4W": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<iframe id=\"affiliate-sign-up-form\" style=\"border: 0; width: 100%; height: 100vh;\" src=\"https:\/\/api.socialsnowball.io\/register-form\/14397\/4a42f541-ab3d-4014-86e5-24061e069295\"><\/iframe><script>!async function(){let e=document.querySelector(\"#affiliate-sign-up-form\");window.addEventListener(\"message\",t=>{t.origin===new URL(e.getAttribute(\"src\")).origin&&(e.style.height=t.data.height)})}();<\/script>"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_GnBjJj",
+    "custom_liquid_C7Bt4W"
+  ]
+}

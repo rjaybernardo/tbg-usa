@@ -27,7 +27,7 @@
         "enlarge_title": false,
         "overlay_title_width": 100,
         "styled_words": "",
-        "words_style": "stencil",
+        "words_style": "highlight",
         "highlight_words_top": 10,
         "highlight_color": "#ffffff",
         "styled_word_color": "#b5e0fa",
