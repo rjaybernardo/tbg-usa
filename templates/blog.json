@@ -6,7 +6,7 @@
         ".created-at {display: none;}"
       ],
       "settings": {
-        "filter_list": "Style;Tours;News;Garden;Eats;Chats;Blog"
+        "filter_list": "Style;Tours;Garden;Blog; Plant Profile"
       }
     }
   },

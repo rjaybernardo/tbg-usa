@@ -3,10 +3,49 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "image_HmDFU6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SLUGG_CRONULLA-31.jpg",
+            "image_link": "",
+            "color_overlay_bg": "#ffffff",
+            "overlay_opacity": 0,
+            "color_overlay_text": "#55565a",
+            "text_alignment": "center",
+            "overlay_position_x": 50,
+            "overlay_position_y": 50,
+            "overlay_title": "Slugg Pot Clusters",
+            "enlarge_title": true,
+            "overlay_title_width": 100,
+            "styled_words": "",
+            "words_style": "stencil",
+            "highlight_words_top": 10,
+            "highlight_color": "#ffffff",
+            "styled_word_color": "#b5e0fa",
+            "overlay_text": "Three pots in a box!",
+            "enlarge_text": true,
+            "overlay_url_text_1": "AVAILABLE NOW",
+            "overlay_url_1": "shopify:\/\/collections\/meet-the-three-sluggs",
+            "overlay_url_text_2": "",
+            "overlay_url_2": "",
+            "overlay_url_style": "button_1",
+            "color_label_background": "#ffffff",
+            "color_label_text": "#333333",
+            "show_chevron": true,
+            "product_id_1": "",
+            "chevron_position_1": "right",
+            "label_position_x_1": 20,
+            "label_position_y_1": 30,
+            "product_id_2": "",
+            "chevron_position_2": "right",
+            "label_position_x_2": 80,
+            "label_position_y_2": 50
+          }
+        },
         "image_8naFxK": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/0004.png",
+            "image": "shopify:\/\/shop_images\/TBG-banner-01.jpg",
             "image_link": "shopify:\/\/collections\/all",
             "color_overlay_bg": "#ffffff",
             "overlay_opacity": 0,
@@ -24,7 +63,7 @@
             "styled_word_color": "#b5e0fa",
             "overlay_text": "",
             "enlarge_text": false,
-            "overlay_url_text_1": "Shop Now",
+            "overlay_url_text_1": "FULL RANGE LAUNCHING DECEMBER",
             "overlay_url_1": "shopify:\/\/collections\/all",
             "overlay_url_text_2": "",
             "overlay_url_2": "",
@@ -45,7 +84,7 @@
         "slide-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/BALCONYGARDENMOSMAN-152-min.jpg",
+            "image": "shopify:\/\/shop_images\/TBG-banner-02.jpg",
             "image_link": "shopify:\/\/collections\/bad-names-range",
             "color_overlay_bg": "#ffffff",
             "overlay_opacity": 0,
@@ -63,7 +102,7 @@
             "styled_word_color": "#b5e0fa",
             "overlay_text": "Thai Rustic Planters",
             "enlarge_text": true,
-            "overlay_url_text_1": "SHOP NOW",
+            "overlay_url_text_1": "FULL RANGE LAUNCHING DECEMBER",
             "overlay_url_1": "shopify:\/\/collections\/bad-names-range",
             "overlay_url_text_2": "",
             "overlay_url_2": "",
@@ -84,7 +123,7 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/0006.jpg",
+            "image": "shopify:\/\/shop_images\/TBG-banner-03.jpg",
             "image_link": "",
             "color_overlay_bg": "#ffffff",
             "overlay_opacity": 0,
@@ -102,7 +141,7 @@
             "styled_word_color": "#b5e0fa",
             "overlay_text": "",
             "enlarge_text": false,
-            "overlay_url_text_1": "Shop Now",
+            "overlay_url_text_1": "BROWSE DESIGNER POTS",
             "overlay_url_1": "shopify:\/\/collections\/all",
             "overlay_url_text_2": "",
             "overlay_url_2": "",
@@ -119,52 +158,13 @@
             "label_position_x_2": 80,
             "label_position_y_2": 74
           }
-        },
-        "image_HmDFU6": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/0007.png",
-            "image_link": "",
-            "color_overlay_bg": "#ffffff",
-            "overlay_opacity": 0,
-            "color_overlay_text": "#ffffff",
-            "text_alignment": "center",
-            "overlay_position_x": 50,
-            "overlay_position_y": 50,
-            "overlay_title": "eGift Card",
-            "enlarge_title": true,
-            "overlay_title_width": 100,
-            "styled_words": "",
-            "words_style": "stencil",
-            "highlight_words_top": 10,
-            "highlight_color": "#ffffff",
-            "styled_word_color": "#b5e0fa",
-            "overlay_text": "Give them the gift of choice.",
-            "enlarge_text": true,
-            "overlay_url_text_1": "Shop Now",
-            "overlay_url_1": "shopify:\/\/products\/gift-cards",
-            "overlay_url_text_2": "",
-            "overlay_url_2": "",
-            "overlay_url_style": "button_1",
-            "color_label_background": "#ffffff",
-            "color_label_text": "#333333",
-            "show_chevron": true,
-            "product_id_1": "",
-            "chevron_position_1": "right",
-            "label_position_x_1": 20,
-            "label_position_y_1": 30,
-            "product_id_2": "",
-            "chevron_position_2": "right",
-            "label_position_x_2": 80,
-            "label_position_y_2": 50
-          }
         }
       },
       "block_order": [
+        "image_HmDFU6",
         "image_8naFxK",
         "slide-0",
-        "slide-1",
-        "image_HmDFU6"
+        "slide-1"
       ],
       "settings": {
         "height": "fixed",
@@ -199,7 +199,7 @@
         "image_6TfiXQ": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/TheBalconyGarden_Home-Collection_Bronte-1.jpg",
+            "image": "shopify:\/\/shop_images\/TBG-for-outdoors-image.jpg",
             "image_link": "",
             "layout": "image_after",
             "color_text": "#55565a",
@@ -218,7 +218,7 @@
         "image_HWh3M7": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/TheBalconyGarden_Home-Collection_Newport-Interior.jpg",
+            "image": "shopify:\/\/shop_images\/TBG-for-indoors-image.jpg",
             "image_link": "",
             "layout": "image_before",
             "color_text": "#ffffff",
@@ -248,7 +248,7 @@
         "logo_4KDrhH": {
           "type": "logo",
           "settings": {
-            "image": "shopify:\/\/shop_images\/adore-home-download-1-2x_2588b93c-e228-4cc3-92db-58da943ea2d9.png",
+            "image": "shopify:\/\/shop_images\/Adore.png",
             "image_width": 160,
             "link": "",
             "title": ""
@@ -257,7 +257,7 @@
         "logo_9qfDkb": {
           "type": "logo",
           "settings": {
-            "image": "shopify:\/\/shop_images\/inside-out-1-2x_e78cb288-470e-4bbd-b1fe-e043ec481f28.png",
+            "image": "shopify:\/\/shop_images\/Inside-Out.png",
             "image_width": 160,
             "link": "",
             "title": ""
@@ -266,7 +266,7 @@
         "logo_kbg4e3": {
           "type": "logo",
           "settings": {
-            "image": "shopify:\/\/shop_images\/tbg_home_logos_vogue-living_02ceb873-3f01-4b93-9e52-4a50ea749692.png",
+            "image": "shopify:\/\/shop_images\/Vogue.png",
             "image_width": 160,
             "link": "",
             "title": ""
@@ -275,7 +275,7 @@
         "logo_RXHMBX": {
           "type": "logo",
           "settings": {
-            "image": "shopify:\/\/shop_images\/tbg_home_logos_belle_85601bc9-ee9c-4e26-b59e-073e78e08e2d.png",
+            "image": "shopify:\/\/shop_images\/Belle.png",
             "image_width": 160,
             "link": "",
             "title": ""
@@ -371,7 +371,7 @@
     "get_the_look_aNYRqz": {
       "type": "get-the-look",
       "settings": {
-        "image": "shopify:\/\/shop_images\/TheBalconyGarden_Home-Featured_Hunters-Hill-1.jpg",
+        "image": "shopify:\/\/shop_images\/TBG-for-indoors-or-outdoors-image.jpg",
         "product_list": [
           "product-tub",
           "product-straight-up",
@@ -396,9 +396,8 @@
     },
     "featured_blog_qUjXHe": {
       "type": "featured-blog",
-      "disabled": true,
       "settings": {
-        "heading_image": "shopify:\/\/shop_images\/TheBalconyGarden_Home_Blog_Vaucluse-1.jpg",
+        "heading_image": "shopify:\/\/shop_images\/TheBalconyGarden_Home_Blog_Vaucluse-1_2.jpg",
         "title": "The Balcony Garden Blog",
         "description": "Read all the latest news, features & interviews",
         "color_overlay_bg": "rgba(0,0,0,0)",
@@ -420,12 +419,12 @@
     "image_with_text_TwnR7n": {
       "type": "image-with-text",
       "settings": {
-        "image": "shopify:\/\/shop_images\/TBG-modern-outdoor-planters-collection.jpg",
+        "image": "shopify:\/\/shop_images\/TBG-our-story-image.jpg",
         "image_link": "",
         "image_size": "0",
         "image_position": "left",
         "title": "Our Story",
-        "text": "<p>The Balcony Garden® range of plant pots and planters are available nationally via our online store or from one of our handpicked stockists. Sourced from around the world, our beautiful collection of indoor & outdoor pots will perfectly complement the architecture and design of any home.<br\/><br\/>Our entire range is handpicked from around the globe and are suitable for interiors and outdoors.<\/p><p>Launching in the US in November 24'.<\/p>",
+        "text": "<p>At The Balcony Garden, our mission is simple yet profound: Cultivating a greener world by ensuring every plant has a place to grow. We believe that every plant deserves a beautiful home, and that's why we're passionate about creating designer garden pots that enhance the beauty of your plants and elevate your space—indoors or outdoors.<\/p><p>Our beautiful collection of indoor and outdoor pots will perfectly complement the architecture and design of any home. Sourced from around the world, each piece is selected for its timeless design and quality craftsmanship. Available nationally through our online store or from a handpicked selection of stockists, The Balcony Garden® is proud to offer pots that transform spaces.<\/p><p><\/p><p>Launching in the US in December 2024.<\/p>",
         "button_label": "Learn More",
         "button_link": "shopify:\/\/pages\/our-story",
         "url_style": "button_1",

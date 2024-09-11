@@ -39,14 +39,14 @@
           "type": "faq_item",
           "settings": {
             "faq_item_question": "<p><strong>What are the pots made of?<\/strong><\/p>",
-            "faq_item_answer": "<p>Our Willow pots are made of a blend of poly resin and fibreglass making it extremely strong, waterproof and lightweight.  Our Bad Names range is made from wood-fired clay. Our pots can be used indoors and outdoors.<\/p>"
+            "faq_item_answer": "<p>Our Willow and Slugg Ranges are made from a strong, waterproof, and lightweight polyresin-fibreglass blend, while the Bad Names Range features unique, wood-fired clay pots. All are perfect for indoor and outdoor use.<\/p>"
           }
         },
         "faq_item_RQrNEM": {
           "type": "faq_item",
           "settings": {
             "faq_item_question": "<p><strong>Is it safe and convenient to order pots online?<\/strong><\/p>",
-            "faq_item_answer": "<p>Ordering online will save you a trip to our showroom and we’ll organise the delivery for you. Why go through all the hassle of renting a trailer or a ute, when you can get your beautiful new pots dropped at your front door! We take great care in wrapping and packaging our pots so they get to you in the best condition.<\/p>"
+            "faq_item_answer": "<p>Ordering online is easy and secure. We take great care in packaging our pots to ensure they arrive safely and in perfect condition.<\/p>"
           }
         },
         "faq_item_ptnCtc": {
@@ -165,28 +165,42 @@
           "type": "faq_item",
           "settings": {
             "faq_item_question": "<p><strong>How do I 'pot-up' my plants?<\/strong><\/p>",
-            "faq_item_answer": "<p>It’s super easy.  Simply follow these <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0886\/3046\/0691\/files\/TBG_How_To_Pot_up_a_plant_guide_d7b4dc47-599d-41fd-be43-eb5353e2bf83_1.webp?v=1719796942\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0886\/3046\/0691\/files\/TBG_How_To_Pot_Up_a_Plant_Guide-compressed.pdf?v=1719797978\">instructions<\/a>.<\/p>"
+            "faq_item_answer": "<p>It’s super easy.  Simply follow these <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0668\/0923\/3650\/files\/TBG_POTTING_MIX_2024.pdf?v=1725409665\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0668\/0923\/3650\/files\/TBG_POTTING_MIX_2024.pdf?v=1725409665\">instructions<\/a>.<\/p>"
+          }
+        },
+        "faq_item_JmWYCx": {
+          "type": "faq_item",
+          "settings": {
+            "faq_item_question": "<p>​<strong>Are there any benefits for first-time customers?<\/strong><\/p>",
+            "faq_item_answer": "<p>First-time customers enjoy a 15% discount on their initial order. Simply sign up to access this exclusive offer.<\/p>"
           }
         },
         "faq_item_VxKhMB": {
           "type": "faq_item",
           "settings": {
             "faq_item_question": "<p><strong>Can they be used indoors and out?<\/strong><\/p>",
-            "faq_item_answer": "<p>Yes, all of our pots have been tested in Australian conditions and are suitable for use outdoors in rain, hail, sun or snow.  They also look great indoors.<\/p>"
+            "faq_item_answer": "<p>Yes, all of our pots are tested for durability in all weather conditions—rain, hail, sun, and snow—and are perfectly suited for outdoor use. They also look fantastic indoors.<\/p>"
+          }
+        },
+        "faq_item_47b4dz": {
+          "type": "faq_item",
+          "settings": {
+            "faq_item_question": "<p>​<strong>Are there any benefits for first-time customers?<\/strong><\/p>",
+            "faq_item_answer": "<p>First-time customers enjoy a 15% discount on their initial order. Simply sign up to access this exclusive offer.<\/p>"
           }
         },
         "faq_item_LqjAN6": {
           "type": "faq_item",
           "settings": {
             "faq_item_question": "<p><strong>How do I stop water leaking out the base of the pot?<\/strong><\/p>",
-            "faq_item_answer": "<p>If you’re using your pots inside and don’t want any water run-off; the best solution is to purchase some pot trays from your local hardware store or nursery. Or, if you would prefer not to use a tray, we recommend keeping your plant in the nursery tub and simply placing inside the pot. Remove your plant to water and place back in the pot once dry.<\/p>"
+            "faq_item_answer": "<p>To prevent water from leaking indoors, place a pot tray beneath your plant inside the pot. You can find these trays at your local hardware store or nursery. <\/p>"
           }
         },
         "faq_item_6Bqez6": {
           "type": "faq_item",
           "settings": {
             "faq_item_question": "<p><strong>Do they have drainage holes?<\/strong><\/p>",
-            "faq_item_answer": "<p>Each Willow Range pot comes with 2 x 30mm drainage holes.  This ensures your plants will never sit in wet feet. Each Bad Names Range pot comes with drainage holes. <\/p>"
+            "faq_item_answer": "<p>Yes, each Willow and Slugg pot features two 30mm drainage holes to prevent water buildup. Pots in the Bad Names Range also come with drainage holes to ensure your plants stay healthy.<\/p>"
           }
         },
         "faq_item_jt6yn7": {
@@ -207,13 +221,15 @@
           "type": "faq_item",
           "settings": {
             "faq_item_question": "<p><strong>How many bags of potting mix do I need?<\/strong><\/p>",
-            "faq_item_answer": "<p>Check out our <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0612\/1648\/9635\/files\/TBG_POTTING_MIX_2024.pdf?v=1704931834\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0886\/3046\/0691\/files\/TBG_POTTING_MIX_2024.pdf?v=1719798157\">guide<\/a> to how many bags of potting mix you'll need. This is an approximate guide based on a 25L bag.<\/p>"
+            "faq_item_answer": "<p>Check out our <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0668\/0923\/3650\/files\/TBG_POTTING_MIX_2024.pdf?v=1725409665\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0668\/0923\/3650\/files\/TBG_POTTING_MIX_2024.pdf?v=1725409665\">guide<\/a> to how many bags of potting mix you'll need. This is an approximate guide based on a 25L bag.<\/p>"
           }
         }
       },
       "block_order": [
         "faq_item_6fKmw6",
+        "faq_item_JmWYCx",
         "faq_item_VxKhMB",
+        "faq_item_47b4dz",
         "faq_item_LqjAN6",
         "faq_item_6Bqez6",
         "faq_item_jt6yn7",
@@ -252,7 +268,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/TheBalconyGarden_FAQs_Download-Digital-Catalogue.png",
             "enlarge_image": false,
-            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0886\/3046\/0691\/files\/TheBalconyGarden_Digital_Catalogue_1dd7ab53-8a76-42fc-b576-17d196af6abf.pdf?v=1719796945",
+            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0668\/0923\/3650\/files\/TheBalconyGarden_Digital_Catalogue_1dd7ab53-8a76-42fc-b576-17d196af6abf.pdf?v=1725409399",
             "title": "",
             "text": "",
             "button_label": "",
@@ -264,7 +280,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/TheBalconyGarden_FAQs_Download-Pot-Planting-Guide.png",
             "enlarge_image": false,
-            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0886\/3046\/0691\/files\/TBG_How_To_Pot_Up_a_Plant_Guide-compressed.pdf?v=1719797978",
+            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0668\/0923\/3650\/files\/TBG_How_To_Pot_Up_a_Plant_Guide-compressed.pdf?v=1725409399",
             "title": "",
             "text": "",
             "button_label": "",
@@ -276,7 +292,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/TheBalconyGarden_FAQs_Download-Pot-Cluster-Guide.png",
             "enlarge_image": false,
-            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0886\/3046\/0691\/files\/TBG_How_To_Create_the_perfect_3_pot_cluster-compressed_1.pdf?v=1719796936",
+            "link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0668\/0923\/3650\/files\/TBG_How_To_Create_the_perfect_3_pot_cluster-compressed_1.pdf?v=1725409399",
             "title": "",
             "text": "",
             "button_label": "",
@@ -306,7 +322,7 @@
       "type": "video",
       "settings": {
         "video_external": "https:\/\/www.youtube.com\/watch?v=EIRO00iGqTs&t=18s",
-        "image": "shopify:\/\/shop_images\/ewdcdwc.png",
+        "image": "shopify:\/\/shop_images\/TBG-faq-image.png",
         "color_overlay_bg": "#ffffff",
         "overlay_opacity": 80,
         "color_overlay_text": "#534f47",
@@ -323,9 +339,9 @@
       "type": "rich-text",
       "settings": {
         "title": "Still have questions?",
-        "text": "<p>Get in touch with our team directly or speak to one of our staff<\/p>",
-        "button_label": "",
-        "button_link": "",
+        "text": "<p>Get in touch with our team directly or speak to one of our staff - <a href=\"mailto:info@thebalconygarden.co\" title=\"mailto:info@thebalconygarden.co\">info@thebalconygarden.co<\/a><\/p>",
+        "button_label": "View Our Collection",
+        "button_link": "shopify:\/\/collections",
         "url_style": "button_1",
         "enlarge_title": false,
         "enlarge_text": false,

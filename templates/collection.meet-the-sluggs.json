@@ -3,13 +3,13 @@
     "rich_text_ijdKYp": {
       "type": "rich-text",
       "custom_css": [
-        "h2 {text-transform: none; font-family: \"Cooper Lt BT\", serif !important; color: #783e2b; font-size: 4em;}",
-        "p {font-size: 1.2em;}",
+        "h2 {text-transform: none; font-family: \"Canela\" !important; color: #55565a; font-size: 32px; text-transform: uppercase;}",
+        "p {font-size: 1.2em; color: #55565a;}",
         "@media (max-width: 767px) {h2 {font-size: 2.9em; }}"
       ],
       "settings": {
         "title": "Slugg garden pot clusters.",
-        "text": "<p>🌵Garden pots sold in sets of three.<\/p><p>🌵 Up to 50% cheaper than buying the same pots individually.<\/p><p>🌵 Free metro shipping.<\/p>",
+        "text": "<p>Garden pots sold in sets of three <\/p><p>Free metro shipping<\/p>",
         "button_label": "",
         "button_link": "",
         "url_style": "button_1",
@@ -35,7 +35,7 @@
         "title": "",
         "enlarge_title": false,
         "link_text": "",
-        "collection": "sluggs",
+        "collection": "meet-the-three-sluggs",
         "show_vendor": false,
         "enable_carousel": false,
         "grid": 3,
@@ -52,7 +52,7 @@
         "collection_FWWynK": {
           "type": "collection",
           "settings": {
-            "collection": "sluggs",
+            "collection": "meet-the-three-sluggs",
             "product": "",
             "collection_text_color": "#ffffff",
             "collection_bg_color": "#43467f",
@@ -148,7 +148,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/Lucy_Garden_Pots.webp",
+            "image": "shopify:\/\/shop_images\/Free_Metro_Shipping.webp",
             "image_width": 100,
             "enable_icon": false,
             "icon": "award",
@@ -166,7 +166,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/Lucy_Garden_Pots_1.webp",
+            "image": "shopify:\/\/shop_images\/Threes.webp",
             "image_width": 100,
             "enable_icon": false,
             "icon": "award",
@@ -184,7 +184,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/Lucy_Garden_Pots_2.webp",
+            "image": "shopify:\/\/shop_images\/Suitable.webp",
             "image_width": 100,
             "enable_icon": false,
             "icon": "award",
@@ -202,7 +202,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/Lucy_Garden_Pots_3.webp",
+            "image": "shopify:\/\/shop_images\/Built_to_last.webp",
             "image_width": 100,
             "enable_icon": false,
             "icon": "award",
@@ -249,7 +249,7 @@
       ],
       "settings": {
         "video_external": "https:\/\/youtu.be\/hPuxgmDtoVI?feature=shared",
-        "image": "shopify:\/\/shop_images\/CleanShot_2024-07-09_at_13.35.14.png",
+        "image": "shopify:\/\/shop_images\/TBG-video-thumbnail.jpg",
         "color_overlay_bg": "#ffffff",
         "overlay_opacity": 41,
         "color_overlay_text": "#333333",
@@ -275,7 +275,7 @@
         "title": "Meet the three Sluggs",
         "enlarge_title": false,
         "link_text": "",
-        "collection": "sluggs",
+        "collection": "meet-the-three-sluggs",
         "show_vendor": false,
         "enable_carousel": false,
         "grid": 3,

@@ -34,9 +34,9 @@
         "image_Diy8YV": {
           "type": "image",
           "settings": {
-            "collection": "sluggs",
-            "collection_text_color": "#FFFFFF",
-            "collection_bg_color": "#43467F",
+            "collection": "meet-the-three-sluggs",
+            "collection_text_color": "#ffffff",
+            "collection_bg_color": "#43467f",
             "collection_bg_gradient": "",
             "color_overlay_bg": "#ffffff",
             "overlay_opacity": 10,
@@ -51,8 +51,9 @@
         "image_XBYhcz",
         "image_Diy8YV"
       ],
+      "disabled": true,
       "settings": {
-        "title": "Collection list",
+        "title": "Collection List",
         "display_type": "selected",
         "layout": "grid",
         "grid": 3,
@@ -70,9 +71,104 @@
         "collection_bg_gradient": "",
         "collection_text_color": "#333333"
       }
+    },
+    "multi_column_U4q6wm": {
+      "type": "multi-column",
+      "blocks": {
+        "text_block_yNw6h3": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Lucy_07_922x922_dbaec64b-b1ff-40e5-8a67-7bae1b62300f.jpg",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "Slugg® Clusters",
+            "text": "<p>Our Slugg® Range are sold in sets of three pre-packaged lightweight pots in a box. Perfect for creating the three pot cluster.<\/p><p>AVAILABLE NOW!<\/p>",
+            "button_label": "Slugg®",
+            "button_link": "shopify:\/\/collections\/meet-the-three-sluggs",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        },
+        "text_block_6Miyw7": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Garden_Pots_UK.webp",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "Willow Range®",
+            "text": "<p>Made from polyresin, our Willow Range® is modern, lightweight, and much stronger than concrete planters.<\/p><p>LAUNCHING 10TH DECEMBER 2024<\/p>",
+            "button_label": "Willow Range®",
+            "button_link": "shopify:\/\/collections\/willow-range",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        },
+        "text_block_RLM6mU": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/TBG_Cronulla_41.webp",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "Bad Names Range®",
+            "text": "<p>Handmade and wood fired in Northern Thailand, each piece of our Bad Names Range® is truly unique.<\/p><p>LAUNCHING 10TH DECEMBER 2024<\/p>",
+            "button_label": "Bad Names Range®",
+            "button_link": "shopify:\/\/collections\/bad-names-range",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        },
+        "text_block_jfjUaN": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/TBG-for-outdoors-image.jpg",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "Shop All Pots",
+            "text": "<p>Our collections of pots & planters include modern and rustic designs. All our pots are suitable indoors & outside.<\/p><p>LAUNCHING 10TH DECEMBER 2024<\/p>",
+            "button_label": "Shop All Pots",
+            "button_link": "shopify:\/\/collections\/all-pots",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "text_block_yNw6h3",
+        "text_block_6Miyw7",
+        "text_block_RLM6mU",
+        "text_block_jfjUaN"
+      ],
+      "settings": {
+        "title": "our collection",
+        "enlarge_title": false,
+        "text_alignment": "center",
+        "url_style": "button_1",
+        "enable_custom_colors": false,
+        "color_title": "",
+        "color_text": "",
+        "color_bg": "",
+        "gradient_bg": ""
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "multi_column_U4q6wm"
   ]
 }

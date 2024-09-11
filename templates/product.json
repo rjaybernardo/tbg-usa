@@ -57,33 +57,36 @@
             "inventory_notice_threshold": 10
           }
         },
+        "infinite_options_app_block_C84ac3": {
+          "type": "shopify:\/\/apps\/infinite-options\/blocks\/app-block\/7e73b6f9-82b0-45f5-9b9b-04f446ba1a9b",
+          "disabled": true,
+          "settings": {
+          }
+        },
         "custom_liquid_dxbEcb": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "<h4 class=\"primary-title center\">ADD TO YOUR ORDER<\/h4>"
           }
         },
         "product_addon_zg6Wiy": {
           "type": "product_addon",
+          "disabled": true,
           "settings": {
-            "product_id": "folding-trowel"
+            "product_id": "drainage-kit"
           }
         },
         "product_addon_mfAiHJ": {
           "type": "product_addon",
-          "settings": {
-            "product_id": "potting-mat"
-          }
-        },
-        "product_addon_QJV4Az": {
-          "type": "product_addon",
           "disabled": true,
           "settings": {
-            "product_id": "lucy"
+            "product_id": "pot-trays"
           }
         },
         "custom_liquid_mYxcr3": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "<div style=\"padding: 1% 0;\"><\/div>"
           }
@@ -122,10 +125,10 @@
         "type",
         "variant_picker",
         "buy_buttons",
+        "infinite_options_app_block_C84ac3",
         "custom_liquid_dxbEcb",
         "product_addon_zg6Wiy",
         "product_addon_mfAiHJ",
-        "product_addon_QJV4Az",
         "custom_liquid_mYxcr3",
         "easy_tabs_product_tabs_easytabs_block_product_widget_eVe7aR",
         "description"

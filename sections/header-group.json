@@ -6,7 +6,7 @@
       "type": "announcement-bar",
       "settings": {
         "home_only_announcement_bar": false,
-        "announcement_bar_text": "Launching 10th December 2024!",
+        "announcement_bar_text": "<a href=\"\/collections\/meet-the-three-sluggs\" title=\"Slugg Clusters\">Slugg®<\/a> is now available exclusively from The Balcony Garden®",
         "announcement_bar_col": "#55565a",
         "announcement_bar_grad": "",
         "announcement_text_col": "#ffffff"
@@ -40,18 +40,18 @@
         "logo_position_mobile": "inline",
         "dock_nav": true,
         "cart_icon": "shopping-bag",
-        "main_linklist": "main-menu",
+        "main_linklist": "main-menu-tbg",
         "show_country_selector": false,
         "show_language_selector": false,
         "show_messages": true,
         "home_only_messages": false,
         "slideshow_messages": false,
         "message_1_text": "SHOP ALL",
-        "message_1_url": "shopify:\/\/pages\/compare",
+        "message_1_url": "shopify:\/\/collections",
         "message_2_text": "CULTIVATING A GREENER WORLD",
         "message_2_url": "",
         "message_3_text": "SLUGG® POT CLUSTERS",
-        "message_3_url": "shopify:\/\/collections\/sluggs"
+        "message_3_url": "shopify:\/\/collections\/meet-the-three-sluggs"
       }
     }
   },

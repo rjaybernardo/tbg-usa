@@ -1,7 +1,24 @@
 {
   "sections": {
+    "1719804699f651bf7c": {
+      "type": "apps",
+      "blocks": {
+        "klaviyo_email_marketing_sms_form_embed_block_cjim4n": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "<div class=\"klaviyo-form-SR4Y7T\"><\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "klaviyo_email_marketing_sms_form_embed_block_cjim4n"
+      ],
+      "settings": {
+      }
+    },
     "rich_text_XcFREh": {
       "type": "rich-text",
+      "disabled": true,
       "settings": {
         "title": "Do you have questions?",
         "text": "<p>We're launching in the USA in November 2024. If you have any questions, please send an email to info@thebalconygarden.com.au.<\/p>",
@@ -48,23 +65,6 @@
         "use_columns": true
       }
     },
-    "1719804699f651bf7c": {
-      "type": "apps",
-      "blocks": {
-        "klaviyo_email_marketing_sms_form_embed_block_cjim4n": {
-          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
-          "settings": {
-            "formId": ""
-          }
-        }
-      },
-      "block_order": [
-        "klaviyo_email_marketing_sms_form_embed_block_cjim4n"
-      ],
-      "disabled": true,
-      "settings": {
-      }
-    },
     "rich_text_yHirgU": {
       "type": "rich-text",
       "disabled": true,
@@ -85,9 +85,9 @@
     }
   },
   "order": [
+    "1719804699f651bf7c",
     "rich_text_XcFREh",
     "main",
-    "1719804699f651bf7c",
     "rich_text_yHirgU"
   ]
 }

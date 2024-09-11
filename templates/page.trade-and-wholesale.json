@@ -1,0 +1,50 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "title_alignment": "left"
+      }
+    },
+    "rich_text_NbiqxU": {
+      "type": "rich-text",
+      "settings": {
+        "title": "Trade & wholesale",
+        "text": "<p>We partner with a range of carefully selected retailers, interior designers, landscape designers, and builders.<\/p><p>Our trade & wholesale programs benefits include an exclusive trade\/wholesale discount, delivery direct to your client, exclusive offers, dedicated trade support, and early access to new product launches.<\/p><p>We frequently showcase our partners on our platforms because we value building strong, meaningful relationships.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "full_width": false,
+        "color_title": "#333333",
+        "color_text": "#333333",
+        "color_bg": "#ffffff",
+        "gradient_bg": ""
+      }
+    },
+    "172592732387423658": {
+      "type": "apps",
+      "blocks": {
+        "klaviyo_email_marketing_sms_form_embed_block_Hh3yGW": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "<div class=\"klaviyo-form-ULKBW4\"><\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "klaviyo_email_marketing_sms_form_embed_block_Hh3yGW"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_NbiqxU",
+    "172592732387423658"
+  ]
+}

@@ -11,7 +11,7 @@
     "image_with_text_overlay_zE3RDi": {
       "type": "image-with-text-overlay",
       "settings": {
-        "image": "shopify:\/\/shop_images\/TheBalconyGarden_Our-Story_Banner.jpg",
+        "image": "shopify:\/\/shop_images\/TBG-our-story-banner.jpg",
         "image_link": "",
         "height": "fixed",
         "height_desktop": 700,
@@ -34,7 +34,7 @@
         "overlay_text": "",
         "enlarge_text": false,
         "overlay_url_text_1": "Shop Now",
-        "overlay_url_1": "shopify:\/\/pages\/compare",
+        "overlay_url_1": "shopify:\/\/collections",
         "overlay_url_text_2": "",
         "overlay_url_2": "",
         "overlay_url_style": "button_1",
@@ -54,19 +54,10 @@
     "logo_list_94xmcw": {
       "type": "logo-list",
       "blocks": {
-        "logo_96VLef": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/adore-home-download-1-2x_2588b93c-e228-4cc3-92db-58da943ea2d9.png",
-            "image_width": 160,
-            "link": "",
-            "title": ""
-          }
-        },
         "logo_eWkqyY": {
           "type": "logo",
           "settings": {
-            "image": "shopify:\/\/shop_images\/inside-out-1-2x_e78cb288-470e-4bbd-b1fe-e043ec481f28.png",
+            "image": "shopify:\/\/shop_images\/Inside-Out.png",
             "image_width": 160,
             "link": "",
             "title": ""
@@ -75,7 +66,7 @@
         "logo_K9ADCW": {
           "type": "logo",
           "settings": {
-            "image": "shopify:\/\/shop_images\/tbg_home_logos_vogue-living_02ceb873-3f01-4b93-9e52-4a50ea749692.png",
+            "image": "shopify:\/\/shop_images\/Vogue.png",
             "image_width": 160,
             "link": "",
             "title": ""
@@ -84,7 +75,7 @@
         "logo_9FexGi": {
           "type": "logo",
           "settings": {
-            "image": "shopify:\/\/shop_images\/tbg_home_logos_belle_85601bc9-ee9c-4e26-b59e-073e78e08e2d.png",
+            "image": "shopify:\/\/shop_images\/Belle.png",
             "image_width": 160,
             "link": "",
             "title": ""
@@ -92,7 +83,6 @@
         }
       },
       "block_order": [
-        "logo_96VLef",
         "logo_eWkqyY",
         "logo_K9ADCW",
         "logo_9FexGi"
@@ -107,23 +97,43 @@
         "image_opacity": 75
       }
     },
-    "image_with_text_DjicFA": {
+    "image_with_text_yGyPEt": {
       "type": "image-with-text",
       "settings": {
-        "image": "shopify:\/\/shop_images\/TheBalconyGarden_Our-Story_Newport-1.jpg",
-        "image_link": "",
+        "image": "shopify:\/\/shop_images\/PNG_to_WEBP_conversion_result.jpg",
+        "image_link": "shopify:\/\/collections",
         "image_size": "0",
-        "image_position": "left",
-        "title": "",
-        "text": "<p>While our range has grown to include both exterior and interior pots, our passion for producing handmade pots of the highest quality is still the same. Collaborating with our customers, our collection has been designed to suit their specific needs and requirements.<\/p>",
-        "button_label": "Shop Our Range",
-        "button_link": "shopify:\/\/collections\/all",
-        "url_style": "button_2",
+        "image_position": "right",
+        "title": "designed in australia",
+        "text": "<p>The Balcony Garden was founded in 2006 by Josh Harrison, one of Australia's leading landscape designers. Josh continues to oversee the design of all our products.<\/p>",
+        "button_label": "View Our Collection",
+        "button_link": "shopify:\/\/collections",
+        "url_style": "button_1",
         "enlarge_title": false,
         "enlarge_text": false,
         "text_alignment": "center",
-        "color_text": "#ffffff",
-        "color_bg": "#676d4b",
+        "color_text": "#000000",
+        "color_bg": "#c9c9c7",
+        "gradient_bg": ""
+      }
+    },
+    "image_with_text_DjicFA": {
+      "type": "image-with-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/TBG-shop-our-range-01.jpg",
+        "image_link": "shopify:\/\/collections",
+        "image_size": "0",
+        "image_position": "left",
+        "title": "A carefully curated range",
+        "text": "<p>While our range has grown to include both exterior and interior pots, our passion for producing handmade pots of the highest quality is still the same. Collaborating with our customers, our collection has been designed to suit their specific needs and requirements.<\/p>",
+        "button_label": "Shop Our Range",
+        "button_link": "shopify:\/\/collections",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "text_alignment": "left",
+        "color_text": "#000000",
+        "color_bg": "#c9c9c7",
         "gradient_bg": ""
       }
     },
@@ -154,7 +164,7 @@
             "image": "shopify:\/\/shop_images\/TBG_Icons_Ship-More.png",
             "image_width": 160,
             "link": "",
-            "title": "We ship more pots than anyone else"
+            "title": "Designed in Australia. Made in Asia."
           }
         },
         "logo_cDMcrF": {
@@ -163,7 +173,7 @@
             "image": "shopify:\/\/shop_images\/TBG_Icons_Afterpay.png",
             "image_width": 160,
             "link": "",
-            "title": "Buy now, pay later with Afterpay"
+            "title": "Buy now, pay later with Shop Pay"
           }
         }
       },
@@ -186,7 +196,7 @@
     "image_with_text_aKKq3X": {
       "type": "image-with-text",
       "settings": {
-        "image": "shopify:\/\/shop_images\/TheBalconyGarden_Spring-Competition_Submitted.jpg",
+        "image": "shopify:\/\/shop_images\/TBG_CRONULLA-32-min.jpg",
         "image_link": "",
         "image_size": "0",
         "image_position": "right",
@@ -194,13 +204,27 @@
         "text": "<p>Using ethically sourced materials and practices, we’re proud to bring you our constantly evolving collection of pots and planters. Our passion is to produce handmade pots of the highest quality. Our pots are handpicked from around the globe and are suitable for interiors and outdoors.<\/p>",
         "button_label": "Shop Our Range",
         "button_link": "shopify:\/\/collections\/all",
-        "url_style": "button_2",
+        "url_style": "button_1",
         "enlarge_title": false,
         "enlarge_text": false,
         "text_alignment": "left",
-        "color_text": "#55565a",
-        "color_bg": "#d6d1ca",
+        "color_text": "#000000",
+        "color_bg": "#c9c9c7",
         "gradient_bg": ""
+      }
+    },
+    "collection_list_aHD9Nr": {
+      "type": "collection-list",
+      "settings": {
+        "title": "designer pots & planters",
+        "enlarge_title": false,
+        "collection_list": [
+          "willow-range",
+          "meet-the-three-sluggs",
+          "bad-names-range",
+          "all-pots"
+        ],
+        "grid": 4
       }
     }
   },
@@ -208,8 +232,10 @@
     "main",
     "image_with_text_overlay_zE3RDi",
     "logo_list_94xmcw",
+    "image_with_text_yGyPEt",
     "image_with_text_DjicFA",
     "logo_list_WxtpBM",
-    "image_with_text_aKKq3X"
+    "image_with_text_aKKq3X",
+    "collection_list_aHD9Nr"
   ]
 }

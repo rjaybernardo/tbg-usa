@@ -1,0 +1,324 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "title_alignment": "left"
+      }
+    },
+    "image_with_text_4GnWCp": {
+      "type": "image-with-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/TBG-bad-names-image.jpg",
+        "image_link": "",
+        "image_size": "30",
+        "image_position": "right",
+        "title": "designer pots & planters",
+        "text": "<p>Launching in USA in Mid-December 2024.<\/p><p><a href=\"\/collections\/meet-the-three-sluggs\" title=\"Slugg Clusters\">Slugg<\/a> available NOW!<\/p>",
+        "button_label": "View The Collection",
+        "button_link": "shopify:\/\/collections",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "text_alignment": "center",
+        "color_text": "#333333",
+        "color_bg": "#ffffff",
+        "gradient_bg": ""
+      }
+    },
+    "multi_column_HbKwMA": {
+      "type": "multi-column",
+      "blocks": {
+        "text_block_fbKi49": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/TBG-our-story-image.jpg",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "1. Designed with care",
+            "text": "<p>We've been working with international craftsmen & designers since 2006.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        },
+        "text_block_3e6Gqy": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/TBG-for-indoors-image.jpg",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "2. Loved by designers",
+            "text": "<p>Our planters have featured in some of the world's most exquisite homes and gardens.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        },
+        "text_block_8qqaGT": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Tub_01_069449ed-49d9-4800-90bf-807fd0ffb104.jpg",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "3. Indoors & outside",
+            "text": "<p>Our collection has been designed to handle the outdoors , with the detail for interiors.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        },
+        "text_block_LqtPnq": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/TBG_CRONULLA-41.jpg",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "4. Over 100+ styles",
+            "text": "<p>Our three ranges include lightweight pots and handmade rustic planters.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "text_block_fbKi49",
+        "text_block_3e6Gqy",
+        "text_block_8qqaGT",
+        "text_block_LqtPnq"
+      ],
+      "settings": {
+        "title": "Why these garden pots keep selling out",
+        "enlarge_title": false,
+        "text_alignment": "center",
+        "url_style": "button_1",
+        "enable_custom_colors": false,
+        "color_title": "",
+        "color_text": "",
+        "color_bg": "",
+        "gradient_bg": ""
+      }
+    },
+    "image_with_text_6TjJRU": {
+      "type": "image-with-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/PNG_to_WEBP_conversion_result.jpg",
+        "image_link": "shopify:\/\/collections",
+        "image_size": "120",
+        "image_position": "left",
+        "title": "designed in australia",
+        "text": "<p>The Balcony Garden was founded in 2006 by Josh Harrison, one of Australia's leading landscape designers. Josh continues to oversee the design of all our products.<\/p>",
+        "button_label": "View Our Collection",
+        "button_link": "shopify:\/\/collections",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "text_alignment": "center",
+        "color_text": "#333333",
+        "color_bg": "#c9c9c7",
+        "gradient_bg": ""
+      }
+    },
+    "image_with_text_overlay_9RXjY3": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/TBG-banner-01.jpg",
+        "image_link": "",
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "color_overlay_bg": "#c9c9c7",
+        "overlay_opacity": 100,
+        "color_overlay_text": "#333333",
+        "text_alignment": "center",
+        "overlay_position_x": 50,
+        "overlay_position_y": 50,
+        "mobile_text_below": false,
+        "overlay_title": "Cultivating a greener world",
+        "enlarge_title": false,
+        "overlay_title_width": 100,
+        "styled_words": "",
+        "words_style": "stencil",
+        "highlight_words_top": 10,
+        "highlight_color": "#ffffff",
+        "styled_word_color": "#b5e0fa",
+        "overlay_text": "We believe every plant needs a place to grow.",
+        "enlarge_text": false,
+        "overlay_url_text_1": "Read Our Story",
+        "overlay_url_1": "shopify:\/\/pages\/our-story",
+        "overlay_url_text_2": "",
+        "overlay_url_2": "",
+        "overlay_url_style": "button_1",
+        "color_label_background": "#ffffff",
+        "color_label_text": "#333333",
+        "show_chevron": true,
+        "product_id_1": "",
+        "chevron_position_1": "right",
+        "label_position_x_1": 20,
+        "label_position_y_1": 30,
+        "product_id_2": "",
+        "chevron_position_2": "right",
+        "label_position_x_2": 80,
+        "label_position_y_2": 50
+      }
+    },
+    "product_list_zxnKJQ": {
+      "type": "product-list",
+      "settings": {
+        "title": "shop lightweight contemporary",
+        "enlarge_title": false,
+        "link_text": "",
+        "link_url": "",
+        "product_list": [
+          "potting-mat-copy",
+          "lucy",
+          "rosie",
+          "thomas"
+        ],
+        "show_vendor": false,
+        "enable_carousel": false,
+        "grid": 4,
+        "grid_mobile": "2"
+      }
+    },
+    "rich_text_UKCqpB": {
+      "type": "rich-text",
+      "settings": {
+        "title": "Producing handmade pots of the highest quality forms every decision we make.",
+        "text": "<p>Our pots are handpicked from around the globe and are suitable for interiors and outdoors.<\/p>",
+        "button_label": "View The Range",
+        "button_link": "shopify:\/\/collections",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "full_width": false,
+        "color_title": "#333333",
+        "color_text": "#333333",
+        "color_bg": "#e4e3e1",
+        "gradient_bg": ""
+      }
+    },
+    "product_list_zWNDGA": {
+      "type": "product-list",
+      "settings": {
+        "title": "Shop our best sellers",
+        "enlarge_title": true,
+        "link_text": "",
+        "link_url": "",
+        "product_list": [
+          "thomas",
+          "rosie",
+          "lucy",
+          "potting-mat-copy"
+        ],
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "grid_mobile": "2"
+      }
+    },
+    "collapsible_tabs_Fkj8BV": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "content_CW9UyK": {
+          "type": "content",
+          "settings": {
+            "content": "<p>Kindly email us at <a href=\"mailto:info@thebalconygarden.eu\" title=\"mailto:info@thebalconygarden.co\">info@thebalconygarden.co<\/a> if you have any questions.<\/p>"
+          }
+        },
+        "question_JK3DPa": {
+          "type": "question",
+          "settings": {
+            "title": "When are you launching?",
+            "answer": "<p>You can already purchase <a href=\"\/collections\/meet-the-three-sluggs\" title=\"Slugg Clusters\">Slugg Clusters<\/a> now. We will be launching our Willow & Bad Names Ranges on the 10th December 2024. Join our mailing list to be the first to know.<\/p>"
+          }
+        },
+        "question_yxJ6xR": {
+          "type": "question",
+          "settings": {
+            "title": "How do I purchase?",
+            "answer": "<p>You can purchase via this website and have your pots delivered to your door.<\/p>"
+          }
+        },
+        "question_rwwgYN": {
+          "type": "question",
+          "settings": {
+            "title": "Where do you ship to?",
+            "answer": "<p>We ship to United States. Please enter your address at checkout to verify your location.<\/p>"
+          }
+        },
+        "question_86JYQW": {
+          "type": "question",
+          "settings": {
+            "title": "Where are they made?",
+            "answer": "<p>All of our planters are designed in Australia and made in South East Asia.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "content_CW9UyK",
+        "question_JK3DPa",
+        "question_yxJ6xR",
+        "question_rwwgYN",
+        "question_86JYQW"
+      ],
+      "settings": {
+        "title": "FAQ's"
+      }
+    },
+    "product_list_8QfUpU": {
+      "type": "product-list",
+      "settings": {
+        "title": "Shop handmade rustic planters",
+        "enlarge_title": false,
+        "link_text": "",
+        "link_url": "",
+        "product_list": [
+          "thomas",
+          "rosie",
+          "lucy",
+          "potting-mat-copy"
+        ],
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "grid_mobile": "2"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_4GnWCp",
+    "multi_column_HbKwMA",
+    "image_with_text_6TjJRU",
+    "image_with_text_overlay_9RXjY3",
+    "product_list_zxnKJQ",
+    "rich_text_UKCqpB",
+    "product_list_zWNDGA",
+    "collapsible_tabs_Fkj8BV",
+    "product_list_8QfUpU"
+  ]
+}

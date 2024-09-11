@@ -64,8 +64,8 @@
     "swatch_option_name": "Color",
     "swatch_method": "image",
     "swatch_crop_align": "center",
-    "swatch_enabled_grid": false,
-    "swatch_enabled": true,
+    "swatch_enabled_grid": true,
+    "swatch_enabled": false,
     "social_facebook_url": "https:\/\/www.facebook.com\/thebalconygarden",
     "social_youtube_url": "https:\/\/www.youtube.com\/channel\/UCWMkOlNd3ABlrCo-gHRbEEw",
     "social_instagram_url": "https:\/\/www.instagram.com\/thebalconygarden\/",
@@ -262,15 +262,21 @@
           "multiple_widgets": false
         }
       },
-      "13768625480086291342": {
-        "type": "shopify:\/\/apps\/forms\/blocks\/forms\/8744a304-fcb1-4347-b211-bb6b4759a76a",
+      "855628211100114053": {
+        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
         "settings": {
         }
       },
-      "855628211100114053": {
-        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
-        "disabled": true,
+      "17676059084223943535": {
+        "type": "shopify:\/\/apps\/triplewhale\/blocks\/triple_pixel_snippet\/483d496b-3f1a-4609-aea7-8eee3b6b7a2a",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "14952540001915115444": {
+        "type": "shopify:\/\/apps\/upcart-cart-drawer\/blocks\/app-embed\/af3da5fb-f5f7-40ec-8273-41bf50059d4b",
+        "disabled": false,
         "settings": {
         }
       }

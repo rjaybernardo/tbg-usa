@@ -28,7 +28,7 @@
     "image_with_text_xDz83z": {
       "type": "image-with-text",
       "settings": {
-        "image": "shopify:\/\/shop_images\/TheBalconyGarden_Spring-Competition_Submitted.jpg",
+        "image": "shopify:\/\/shop_images\/TBG-shop-our-range-02.jpg",
         "image_link": "shopify:\/\/collections\/willow-range",
         "image_size": "0",
         "image_position": "left",
@@ -48,7 +48,7 @@
     "image_with_text_mEErbN": {
       "type": "image-with-text",
       "settings": {
-        "image": "shopify:\/\/shop_images\/CHAD_800x800_563a1696-b8d1-4924-9a44-f32886c1a5de.jpg",
+        "image": "shopify:\/\/shop_images\/TBG-bad-names-image.jpg",
         "image_link": "shopify:\/\/collections\/bad-names-range",
         "image_size": "0",
         "image_position": "right",
@@ -89,14 +89,14 @@
     "image_with_text_cKgp6C": {
       "type": "image-with-text",
       "settings": {
-        "image": "shopify:\/\/shop_images\/16.webp",
+        "image": "shopify:\/\/shop_images\/TBG-pot-clusters-slugg.webp",
         "image_link": "",
         "image_size": "0",
         "image_position": "left",
         "title": "Pot Clusters by Slugg®",
         "text": "<p>Our sister brand, Slugg® offers prepackaged garden pot clusters that are guaranteed to look amazing. <\/p><p>Slugg® offers FREE delivery and same day dispatch.<\/p>",
         "button_label": "Meet Slugg®",
-        "button_link": "shopify:\/\/collections\/sluggs",
+        "button_link": "shopify:\/\/collections\/meet-the-three-sluggs",
         "url_style": "button_1",
         "enlarge_title": true,
         "enlarge_text": false,

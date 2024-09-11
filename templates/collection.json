@@ -6,7 +6,7 @@
         "collection_FWWynK": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "willow-range",
             "product": "",
             "collection_text_color": "#ffffff",
             "collection_bg_color": "#43467f",
@@ -32,9 +32,24 @@
         "show_sort_by": false,
         "show_featured": false
       }
+    },
+    "collection_list_8aKzGG": {
+      "type": "collection-list",
+      "settings": {
+        "title": "Shop Our Collection",
+        "enlarge_title": false,
+        "collection_list": [
+          "willow-range",
+          "bad-names-range",
+          "meet-the-three-sluggs",
+          "gardening-accessories"
+        ],
+        "grid": 4
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "collection_list_8aKzGG"
   ]
 }
