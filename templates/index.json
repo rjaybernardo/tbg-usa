@@ -25,7 +25,7 @@
             "overlay_text": "Three pots in a box!",
             "enlarge_text": true,
             "overlay_url_text_1": "AVAILABLE NOW",
-            "overlay_url_1": "shopify:\/\/collections\/meet-the-three-sluggs",
+            "overlay_url_1": "shopify:\/\/collections\/sluggs",
             "overlay_url_text_2": "",
             "overlay_url_2": "",
             "overlay_url_style": "button_1",
@@ -404,7 +404,7 @@
         "overlay_opacity": 0,
         "color_overlay_text": "#ffffff",
         "show_view_all": true,
-        "overlay_url_style": "button_1",
+        "overlay_url_style": "button_2",
         "enlarge_title": true,
         "enlarge_text": false,
         "overlay_position_y": 50,
@@ -412,8 +412,8 @@
         "post_limit": 3,
         "show_author": false,
         "show_date": true,
-        "show_tags": true,
-        "show_featured_products": true
+        "show_tags": false,
+        "show_featured_products": false
       }
     },
     "image_with_text_TwnR7n": {

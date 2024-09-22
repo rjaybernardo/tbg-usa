@@ -35,7 +35,7 @@
         "title": "",
         "enlarge_title": false,
         "link_text": "",
-        "collection": "meet-the-three-sluggs",
+        "collection": "sluggs",
         "show_vendor": false,
         "enable_carousel": false,
         "grid": 3,
@@ -52,7 +52,7 @@
         "collection_FWWynK": {
           "type": "collection",
           "settings": {
-            "collection": "meet-the-three-sluggs",
+            "collection": "sluggs",
             "product": "",
             "collection_text_color": "#ffffff",
             "collection_bg_color": "#43467f",
@@ -275,7 +275,7 @@
         "title": "Meet the three Sluggs",
         "enlarge_title": false,
         "link_text": "",
-        "collection": "meet-the-three-sluggs",
+        "collection": "sluggs",
         "show_vendor": false,
         "enable_carousel": false,
         "grid": 3,

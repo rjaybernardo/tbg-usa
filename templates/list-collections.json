@@ -34,7 +34,7 @@
         "image_Diy8YV": {
           "type": "image",
           "settings": {
-            "collection": "meet-the-three-sluggs",
+            "collection": "sluggs",
             "collection_text_color": "#ffffff",
             "collection_bg_color": "#43467f",
             "collection_bg_gradient": "",
@@ -88,7 +88,7 @@
             "title": "Slugg® Clusters",
             "text": "<p>Our Slugg® Range are sold in sets of three pre-packaged lightweight pots in a box. Perfect for creating the three pot cluster.<\/p><p>AVAILABLE NOW!<\/p>",
             "button_label": "Slugg®",
-            "button_link": "shopify:\/\/collections\/meet-the-three-sluggs",
+            "button_link": "shopify:\/\/collections\/sluggs",
             "enlarge_title": false,
             "enlarge_text": false
           }
