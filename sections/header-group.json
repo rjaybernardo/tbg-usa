@@ -6,7 +6,7 @@
       "type": "announcement-bar",
       "settings": {
         "home_only_announcement_bar": false,
-        "announcement_bar_text": "<a href=\"\/collections\/meet-the-three-sluggs\" title=\"Slugg Clusters\">Slugg®<\/a> is now available exclusively from The Balcony Garden®",
+        "announcement_bar_text": "<a href=\"\/collections\/sluggs\" title=\"Slugg Clusters\">Slugg®<\/a> is now available exclusively from The Balcony Garden®",
         "announcement_bar_col": "#55565a",
         "announcement_bar_grad": "",
         "announcement_text_col": "#ffffff"

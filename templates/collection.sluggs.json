@@ -3,18 +3,18 @@
     "rich_text_ijdKYp": {
       "type": "rich-text",
       "custom_css": [
-        "h2 {text-transform: none; font-family: \"Canela\" !important; color: #55565a; font-size: 32px; text-transform: uppercase;}",
+        "h2 {text-transform: none; font-family: \"Canela\" !important; color: #55565a; font-size: 48px; text-transform: uppercase;}",
         "p {font-size: 1.2em; color: #55565a;}",
         "@media (max-width: 767px) {h2 {font-size: 2.9em; }}"
       ],
       "settings": {
-        "title": "Slugg garden pot clusters.",
-        "text": "<p>Garden pots sold in sets of three <\/p><p>Free metro shipping<\/p>",
+        "title": "Slugg garden pot clusters",
+        "text": "<p>Garden pots sold in sets of three <\/p>",
         "button_label": "",
         "button_link": "",
         "url_style": "button_1",
         "enlarge_title": true,
-        "enlarge_text": false,
+        "enlarge_text": true,
         "full_width": false,
         "color_title": "#333333",
         "color_text": "#783e2b",
@@ -121,7 +121,7 @@
           "type": "question",
           "settings": {
             "title": "How much is shipping?",
-            "answer": "<p>We provide free metro shipping.<\/p>"
+            "answer": "<p>Our shipping rates are provided by our transport partner. They are calculated based on order size and geographic location.<\/p>"
           }
         }
       },

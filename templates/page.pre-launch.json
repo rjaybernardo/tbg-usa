@@ -1,0 +1,97 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "title_alignment": "left"
+      }
+    },
+    "featured_product_ERPaWD": {
+      "type": "featured-product",
+      "settings": {
+        "product": "",
+        "image_size": "0",
+        "description": "<p>Pair some text with a product to highlight features.<\/p>",
+        "show_vendor": false,
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "section_text_colour": "#333333",
+        "color_bg": "#dae4e6",
+        "gradient_bg": "",
+        "enable_video_looping": false,
+        "layout": "image_before"
+      }
+    },
+    "collection_list_4jkwQH": {
+      "type": "collection-list",
+      "settings": {
+        "title": "Collection list",
+        "enlarge_title": false,
+        "collection_list": [
+
+        ],
+        "grid": 5
+      }
+    },
+    "image_with_text_8Uamzb": {
+      "type": "image-with-text",
+      "settings": {
+        "image_link": "",
+        "image_size": "0",
+        "image_position": "right",
+        "title": "Image with text",
+        "text": "<p>Advertise a sale! Or tell your shoppers something about yourself.<\/p>",
+        "button_label": "Optional button",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "text_alignment": "center",
+        "color_text": "#333333",
+        "color_bg": "#dae4e6",
+        "gradient_bg": ""
+      }
+    },
+    "product_list_EThAUd": {
+      "type": "product-list",
+      "settings": {
+        "title": "Product list",
+        "enlarge_title": false,
+        "link_text": "Shop now",
+        "link_url": "",
+        "product_list": [
+
+        ],
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "grid_mobile": "1"
+      }
+    },
+    "featured_collection_AfBxjM": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured collection",
+        "enlarge_title": false,
+        "link_text": "Shop now",
+        "collection": "",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "row_count": 1,
+        "grid_mobile": "1"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "featured_product_ERPaWD",
+    "collection_list_4jkwQH",
+    "image_with_text_8Uamzb",
+    "product_list_EThAUd",
+    "featured_collection_AfBxjM"
+  ]
+}

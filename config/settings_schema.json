@@ -676,14 +676,14 @@
         "type": "checkbox",
         "id": "enable_payment_button",
         "label": "Show dynamic checkout button",
-        "info": "Each customer will see their preferred payment method from those available on your store, such as PayPal or Apple Pay. [Learn more](https://help.shopify.com/manual/using-themes/change-the-layout/dynamic-checkout)",
+        "info": "Each customer will see their preferred payment method from those available on your store, such as PayPal or Apple Pay. [Learn more](https:\/\/help.shopify.com\/manual\/using-themes\/change-the-layout\/dynamic-checkout)",
         "default": true
       },
       {
         "type": "checkbox",
         "id": "show_gift_card_recipient",
         "label": "Show recipient information form for gift card products.",
-        "info": "Allow customers to send gift cards to a recipient along with a personal message. When enabled, the dynamic checkout button will be disabled for gift cards. [Learn more](https://help.shopify.com/manual/online-store/themes/customizing-themes/add-gift-card-recipient-fields)"
+        "info": "Allow customers to send gift cards to a recipient along with a personal message. When enabled, the dynamic checkout button will be disabled for gift cards. [Learn more](https:\/\/help.shopify.com\/manual\/online-store\/themes\/customizing-themes\/add-gift-card-recipient-fields)"
       }
     ]
   },
@@ -692,7 +692,7 @@
     "settings": [
       {
         "type": "paragraph",
-        "content": "Swatches are small visual indicators that display the colors, patterns, and materials in which a product is available to customers. [Learn more](https://cleancanvas.co.uk/support/general/swatches)"
+        "content": "Swatches are small visual indicators that display the colors, patterns, and materials in which a product is available to customers. [Learn more](https:\/\/cleancanvas.co.uk\/support\/general\/swatches)"
       },
       {
         "type": "checkbox",
@@ -764,14 +764,14 @@
       {
         "type": "checkbox",
         "id": "swatch_enabled",
-        "label": "Enable swatches in collection/search filters",
+        "label": "Enable swatches in collection\/search filters",
         "info": "Uses colors from the color list above. Swatches must also be enabled above.",
         "default": false
       },
       {
         "type": "range",
         "id": "swatch_size_filter",
-        "label": "Swatch size in collection/search filters",
+        "label": "Swatch size in collection\/search filters",
         "min": 20,
         "max": 40,
         "step": 2,
@@ -861,7 +861,7 @@
         "type": "text",
         "id": "social_wechat_url",
         "label": "WeChat",
-        "info": "weixin://dl/chat?shopify"
+        "info": "weixin:\/\/dl\/chat?shopify"
       },
       {
         "type": "text",
@@ -891,19 +891,19 @@
         "type": "text",
         "id": "social_discord_url",
         "label": "Discord",
-        "info": "https://discord.com/servers/shopify"
+        "info": "https:\/\/discord.com\/servers\/shopify"
       },
       {
         "type": "text",
         "id": "social_mastodon_url",
         "label": "Mastodon",
-        "info": "https://mastodon.social/@shopify"
+        "info": "https:\/\/mastodon.social\/@shopify"
       },
       {
         "type": "text",
         "id": "social_threads_url",
         "label": "Threads",
-        "info": "https://www.threads.net/@shopify"
+        "info": "https:\/\/www.threads.net\/@shopify"
       },
       {
         "type": "header",

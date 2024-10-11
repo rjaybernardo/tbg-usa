@@ -55,13 +55,21 @@
             "faq_item_question": "<p><strong>Are the pots handmade?<\/strong><\/p>",
             "faq_item_answer": "<p>Yes! All of our pots are handmade. Products may have slight imperfections and colour variations.<\/p>"
           }
+        },
+        "faq_item_4NPXK7": {
+          "type": "faq_item",
+          "settings": {
+            "faq_item_question": "<p>​<strong>Are there any benefits for first-time customers?<\/strong><\/p>",
+            "faq_item_answer": "<p>First-time customers enjoy a 15% discount on their initial order. Simply sign up to access this exclusive offer.<\/p>"
+          }
         }
       },
       "block_order": [
         "faq_item_xFTQNw",
         "faq_item_R77jY9",
         "faq_item_RQrNEM",
-        "faq_item_ptnCtc"
+        "faq_item_ptnCtc",
+        "faq_item_4NPXK7"
       ],
       "settings": {
         "title_text": "General",
@@ -184,6 +192,7 @@
         },
         "faq_item_47b4dz": {
           "type": "faq_item",
+          "disabled": true,
           "settings": {
             "faq_item_question": "<p>​<strong>Are there any benefits for first-time customers?<\/strong><\/p>",
             "faq_item_answer": "<p>First-time customers enjoy a 15% discount on their initial order. Simply sign up to access this exclusive offer.<\/p>"
