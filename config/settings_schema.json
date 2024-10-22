@@ -8,6 +8,17 @@
     "theme_support_url": "http:\/\/cleancanvas.co.uk\/support\/boost\/"
   },
   {
+    "name": "Geolocation Settings",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "enable_geolocation_modal",
+        "label": "Enable Geolocation Modal",
+        "default": false
+      }
+    ]
+  },
+  {
     "name": "Colors",
     "settings": [
       {

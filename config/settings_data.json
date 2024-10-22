@@ -1,5 +1,6 @@
 {
   "current": {
+    "enable_geolocation_modal": true,
     "color_body_background": "#ffffff",
     "accent_color": "#e4e3e1",
     "accent_gradient": "",
@@ -242,6 +243,25 @@
           "slideshow_autoplay": true,
           "slideshow_autoplay_speed": 6
         }
+      },
+      "geolocation": {
+        "type": "geolocation",
+        "settings": {
+          "ipinfo_token": "258073ebfdbc84",
+          "store_location": "US",
+          "default_site": "https:\/\/www.thebalconygarden.com.au",
+          "au_store": "https:\/\/www.thebalconygarden.com.au",
+          "uk_store": "https:\/\/www.thebalconygarden.uk",
+          "eu_store": "https:\/\/www.thebalconygarden.eu",
+          "us_store": "https:\/\/www.thebalconygarden.co",
+          "title": "Are you in the correct location?",
+          "text": "<p>We have a local store for your region. Click below to visit the best version of our store for your location.<\/p>",
+          "button_label": "Go to my local store",
+          "dismiss_button_label": "Stay Here.",
+          "cookie_duration": 15,
+          "color_bg": "#ffffff",
+          "color_text": "#333333"
+        }
       }
     },
     "content_for_index": [
@@ -276,6 +296,12 @@
       },
       "14952540001915115444": {
         "type": "shopify:\/\/apps\/upcart-cart-drawer\/blocks\/app-embed\/af3da5fb-f5f7-40ec-8273-41bf50059d4b",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "4918592460924562117": {
+        "type": "shopify:\/\/apps\/optimonk-popup-cro-a-b-test\/blocks\/app-embed\/0b488be1-fc0a-4fe6-8793-f2bef383dba8",
         "disabled": false,
         "settings": {
         }

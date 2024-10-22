@@ -1,0 +1,299 @@
+{% if settings.enable_geolocation_modal %}
+  <div class="geolocation-popup__overlay" id="geolocation-popup-overlay-{{ section.id }}"></div>
+
+  <div class="geolocation-popup" id="geolocation-popup-{{ section.id }}">
+    <h3 class="geolocation-popup__title">{{ section.settings.title }}</h3>
+    {% if section.settings.text %}
+      <div class="geolocation-popup__text">{{ section.settings.text }}</div>
+    {% endif %}
+    <a
+      id="geolocation-redirect-link-{{ section.id }}"
+      href="{{ section.settings.default_site }}"
+      class="btn btn--primary"
+    >
+      {{- section.settings.button_label -}}
+    </a>
+    <button class="geolocation-popup__close" id="close-popup-{{ section.id }}">
+      {{ section.settings.dismiss_button_label }}
+    </button>
+  </div>
+{% endif %}
+
+{% style %}
+  .geolocation-popup,
+  .geolocation-popup__overlay {
+    display: none;
+  }
+
+  .geolocation-popup__overlay.active,
+  .geolocation-popup.active {
+    display: block;
+  }
+
+  .geolocation-popup__overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+  }
+
+  .geolocation-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: {{ section.settings.color_bg }};
+    color: {{ section.settings.color_text }};
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    width: 300px;
+    text-align: center;
+  }
+  .geolocation-popup__title{
+    font-size: 22px;
+    text-transform:none;
+  }
+
+  .geolocation-popup__close {
+    margin-top: 20px;
+    text-decoration: none;
+    background: none;
+    border: none;
+    color: {{ section.settings.color_text }};
+    cursor: pointer;
+  }
+{% endstyle %}
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const sectionId = '{{ section.id }}';
+      const popup = document.getElementById(`geolocation-popup-${sectionId}`);
+      const overlay = document.getElementById(`geolocation-popup-overlay-${sectionId}`);
+      const closeBtn = document.getElementById(`close-popup-${sectionId}`);
+      const redirectLink = document.getElementById(`geolocation-redirect-link-${sectionId}`);
+
+      if (!popup || !overlay || !closeBtn || !redirectLink) {
+        console.error('One or more required elements are missing. Geolocation popup will not function.');
+        return;
+      }
+
+      const cookieName = 'geolocationPopupShown';
+      const cookieDuration = {{ section.settings.cookie_duration }}; // Duration in days
+  
+      const ipinfoToken = '{{ section.settings.ipinfo_token }}'; // IPInfo token from settings
+      const defaultSite = '{{ section.settings.default_site }}'; // Default store from settings
+      const currentStoreLocation = '{{ section.settings.store_location }}'; // Current store location from settings
+  
+      // Map of country codes to store URLs from settings
+     const storeMap = {
+        'AU': '{{ section.settings.au_store }}',   // Australia Store
+        'UK': '{{ section.settings.uk_store }}',   // UK Store
+        'GB': '{{ section.settings.uk_store }}',   // Great Britain (UK) Store
+        'AT': '{{ section.settings.eu_store }}',   // Austria (EU) 
+        'BE': '{{ section.settings.eu_store }}',   // Belgium (EU) 
+        'BG': '{{ section.settings.eu_store }}',   // Bulgaria (EU) 
+        'HR': '{{ section.settings.eu_store }}',   // Croatia (EU) 
+        'CZ': '{{ section.settings.eu_store }}',   // Czech Republic (EU) 
+        'FR': '{{ section.settings.eu_store }}',   // France (EU) 
+        'DE': '{{ section.settings.eu_store }}',   // Germany (EU) 
+        'HU': '{{ section.settings.eu_store }}',   // Hungary (EU) 
+        'IT': '{{ section.settings.eu_store }}',   // Italy (EU) 
+        'LU': '{{ section.settings.eu_store }}',   // Luxembourg (EU) 
+        'NL': '{{ section.settings.eu_store }}',   // Netherlands (EU) 
+        'PL': '{{ section.settings.eu_store }}',   // Poland (EU) 
+        'PT': '{{ section.settings.eu_store }}',   // Portugal (EU) 
+        'RO': '{{ section.settings.eu_store }}',   // Romania (EU) 
+        'SK': '{{ section.settings.eu_store }}',   // Slovakia (EU) 
+        'SI': '{{ section.settings.eu_store }}',   // Slovenia (EU) 
+        'ES': '{{ section.settings.eu_store }}',   // Spain (EU)  
+        'SE': '{{ section.settings.eu_store }}',   // Sweden (EU) 
+        'LV': '{{ section.settings.eu_store }}',   // Latvia (EU)
+        'LT': '{{ section.settings.eu_store }}',   // Lithuania (EU)
+        'DK': '{{ section.settings.eu_store }}',   // Denmark (EU)
+        'EE': '{{ section.settings.eu_store }}',   // Estonia (EU)
+        'FI': '{{ section.settings.eu_store }}',   // Finland (EU)
+        'IE': '{{ section.settings.eu_store }}',   // Ireland (EU)
+        'GR': '{{ section.settings.eu_store }}',   // Greece (EU)
+        'MT': '{{ section.settings.eu_store }}',   // Malta (EU)
+        'CY': '{{ section.settings.eu_store }}',   // Cyprus (EU)
+        'US': '{{ section.settings.us_store }}'    // US Store
+      };
+
+      const CACHE_DURATION = 30 * 24 * 60 * 60 * 1000; // 30 days in milliseconds
+
+      function fetchUserLocation() {
+        if (cookieDuration === 0 || !getCookie(cookieName)) {
+          const cachedData = localStorage.getItem('geolocationData');
+          const cachedTimestamp = localStorage.getItem('geolocationTimestamp');
+
+          if (cachedData && cachedTimestamp && (Date.now() - parseInt(cachedTimestamp) < CACHE_DURATION)) {
+            handleGeolocationData(JSON.parse(cachedData));
+          } else {
+            fetch(`https://ipinfo.io/json?token=${ipinfoToken}`)
+              .then(response => response.json())
+              .then(data => {
+                localStorage.setItem('geolocationData', JSON.stringify(data));
+                localStorage.setItem('geolocationTimestamp', Date.now().toString());
+                handleGeolocationData(data);
+              })
+              .catch(error => console.error('Error fetching geolocation:', error));
+          }
+        }
+      }
+  
+      function handleGeolocationData(data) {
+        const userCountry = data.country;
+        const targetStore = storeMap[userCountry] || defaultSite;
+
+        const isKnownCountry = userCountry in storeMap;
+        const isCorrectStore = (currentStoreLocation === 'EU' && storeMap[userCountry] === storeMap['AT']) || 
+                               (storeMap[userCountry] === storeMap[currentStoreLocation]);
+
+        if (!isKnownCountry || !isCorrectStore) {
+          redirectLink.href = targetStore;
+          redirectLink.textContent = isKnownCountry ? 'Go to my local store' : 'Visit our Main store';
+          showPopup();
+        }
+      }
+  
+      function showPopup() {
+        popup.classList.add('active');
+        overlay.classList.add('active');
+      }
+  
+      function hidePopup() {
+        popup.classList.remove('active');
+        overlay.classList.remove('active');
+        if (cookieDuration > 0) {
+          setCookie(cookieName, 'true', cookieDuration);
+        }
+      }
+  
+      function getCookie(name) {
+        return document.cookie.split('; ').find(row => row.startsWith(name))?.split('=')[1];
+      }
+  
+      function setCookie(name, value, days) {
+        const date = new Date();
+        date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+        document.cookie = `${name}=${value}; expires=${date.toUTCString()}; path=/`;
+      }
+  
+      closeBtn.addEventListener('click', hidePopup);
+  
+      redirectLink.addEventListener('click', function(event) {
+        event.preventDefault();
+        if (redirectLink.href === window.location.href) {
+          hidePopup();
+        } else {
+          window.location.href = redirectLink.href;
+        }
+      });
+
+      // Fetch user location and show modal if necessary
+      fetchUserLocation();
+    });
+</script>
+
+{% schema %}
+{
+  "name": "Geolocation Modal",
+  "settings": [
+    {
+      "type": "text",
+      "id": "ipinfo_token",
+      "label": "IPInfo API Token",
+      "default": "your_ipinfo_token_here"
+    },
+    {
+      "type": "select",
+      "id": "store_location",
+      "label": "Current Store Location",
+      "options": [
+        { "value": "AU", "label": "Australia" },
+        { "value": "UK", "label": "United Kingdom" },
+        { "value": "EU", "label": "European Union" },
+        { "value": "US", "label": "United States" }
+      ]
+    },
+    {
+      "type": "url",
+      "id": "default_site",
+      "label": "Default Site URL"
+    },
+    {
+      "type": "url",
+      "id": "au_store",
+      "label": "Australia Store URL"
+    },
+    {
+      "type": "url",
+      "id": "uk_store",
+      "label": "UK Store URL"
+    },
+    {
+      "type": "url",
+      "id": "eu_store",
+      "label": "EU Store URL"
+    },
+    {
+      "type": "url",
+      "id": "us_store",
+      "label": "US Store URL"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Modal Title",
+      "default": "Welcome to The Balcony Garden"
+    },
+    {
+      "type": "richtext",
+      "id": "text",
+      "label": "Modal Text",
+      "default": "<p>We have a local store for your region. Click below to visit the best version of our store for your location.<\/p>"
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "Button Label",
+      "default": "Go to my local store"
+    },
+    {
+      "type": "text",
+      "id": "dismiss_button_label",
+      "label": "Dismiss Button Label",
+      "default": "No, thanks"
+    },
+    {
+      "type": "number",
+      "id": "cookie_duration",
+      "label": "Number of Days Before Showing Again",
+      "default": 3
+    },
+    {
+      "type": "color",
+      "id": "color_bg",
+      "label": "Background color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "color_text",
+      "label": "Text color",
+      "default": "#333333"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Geolocation Modal"
+    }
+  ]
+}
+{% endschema %}
+
